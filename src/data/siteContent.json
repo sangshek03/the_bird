@@ -1,0 +1,314 @@
+{
+  "siteInfo": {
+    "name": "The_Birds_Vet",
+    "tagline": "Veterinary Care | Conservation | Nurture",
+    "established": "2022",
+    "logo": "/photos/logo.jpg"
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Our Journey", "href": "#timeline" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Impact", "href": "#impact" },
+    { "label": "Gallery", "href": "#gallery" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "badge": "Registered NGO",
+    "title": ["Every Wing", "Deserves to Soar"],
+    "highlight": "Soar",
+    "subtitle": "We provide veterinary care, rescue injured birds, and protect natural habitats. Together, we're building a world where birds and humans coexist in harmony.",
+    "primaryCta": { "text": "Donate Now", "href": "#donate" },
+    "secondaryCta": { "text": "Report Injured Bird", "href": "#contact" },
+    "stats": [
+      { "number": "500+", "label": "Birds Rescued" },
+      { "number": "50+", "label": "Feeding Stations" },
+      { "number": "100+", "label": "Volunteers" }
+    ],
+    "video": "/videos/VID-20241214-WA0002.mp4"
+  },
+  "about": {
+    "subtitle": "Who We Are",
+    "title": "The_Birds_Vet",
+    "description": [
+      "The_Birds_Vet is a dedicated group of veterinarians, conservationists, and bird lovers committed to providing compassionate care for avian species. We believe every bird deserves a chance to fly free.",
+      "Our team works tirelessly to rescue injured birds, provide medical treatment, rehabilitate them, and release them back into their natural habitat. We also run awareness programs and feeding stations across the region."
+    ],
+    "mission": "Our mission is to ensure the well-being and protection of avian species, fostering a harmonious coexistence between Humans and Birds. To protect and promote the welfare of Birds through compassionate care.",
+    "badges": [
+      "Licensed Veterinary Care",
+      "24/7 Emergency Response",
+      "Habitat Conservation"
+    ],
+    "images": [
+      "/photos/Picsart_24-11-10_10-41-25-630.jpg",
+      "/photos/Picsart_24-11-09_12-24-52-790.jpg",
+      "/photos/Picsart_24-10-13_09-52-41-550.jpg"
+    ]
+  },
+  "timeline": {
+    "subtitle": "Our Journey",
+    "title": "Milestones of Hope",
+    "description": "From a small group of passionate bird lovers to a movement touching hundreds of lives — here's our story of growth and impact.",
+    "milestones": [
+      {
+        "year": "2022",
+        "title": "The Beginning",
+        "description": "The_Birds_Vet was founded when a group of passionate veterinarians and bird lovers came together to rescue an injured kite. That single act of compassion sparked a mission to protect all birds.",
+        "stat": { "number": "5", "label": "Founding Members" },
+        "image": "/photos/Picsart_22-11-05_08-18-18-148.jpg"
+      },
+      {
+        "year": "2023",
+        "title": "First Rescue Center",
+        "description": "Opened our first dedicated bird rescue and rehabilitation center with proper medical facilities, cages, and trained volunteers ready to help birds in need.",
+        "stat": { "number": "100+", "label": "Birds Treated" },
+        "image": "/photos/Picsart_24-11-01_10-00-18-735.jpg"
+      },
+      {
+        "year": "2024",
+        "title": "Community Outreach",
+        "description": "Launched our urban bird feeding initiative, installing feeding stations across parks, schools, and community spaces. Started awareness programs in schools and colleges.",
+        "stat": { "number": "50+", "label": "Feeding Stations" },
+        "image": "/photos/Picsart_24-11-10_01-32-35-855.jpg"
+      },
+      {
+        "year": "2025",
+        "title": "Growing Impact",
+        "description": "Expanded our reach with more volunteers, more rescues, and a stronger community. Our dedication continues to grow as we help more birds every day.",
+        "stat": { "number": "500+", "label": "Total Birds Rescued" },
+        "image": "/photos/Picsart_25-11-07_12-06-16-470.jpg"
+      }
+    ]
+  },
+  "services": {
+    "subtitle": "What We Do",
+    "title": "Our Services",
+    "description": "From emergency rescues to long-term rehabilitation, we provide comprehensive care for birds in need.",
+    "items": [
+      {
+        "title": "Bird Rescue",
+        "description": "24/7 emergency response team ready to rescue injured, sick, or stranded birds from anywhere in the region.",
+        "image": "/photos/Picsart_24-11-10_00-52-39-957.jpg",
+        "icon": "rescue"
+      },
+      {
+        "title": "Veterinary Care",
+        "description": "Professional medical treatment including surgeries, medications, and specialized care for all avian species.",
+        "image": "/photos/Picsart_24-11-09_23-42-18-998.jpg",
+        "icon": "medical"
+      },
+      {
+        "title": "Rehabilitation",
+        "description": "Safe recovery spaces where birds can heal and regain their strength before being released back into the wild.",
+        "image": "/photos/Picsart_24-11-10_01-07-46-120.jpg",
+        "icon": "rehab"
+      },
+      {
+        "title": "Feeding Stations",
+        "description": "We establish and maintain bird feeding stations across urban areas to provide food and water for wild birds.",
+        "image": "/photos/Picsart_24-11-10_01-10-06-482.jpg",
+        "icon": "feeding"
+      }
+    ]
+  },
+  "impact": {
+    "subtitle": "Our Impact",
+    "title": "Making a Difference",
+    "description": "Every rescue, every treatment, every release — together we're creating a better world for birds.",
+    "stats": [
+      { "number": "500+", "label": "Birds Rescued", "icon": "bird" },
+      { "number": "50+", "label": "Feeding Stations", "icon": "station" },
+      { "number": "100+", "label": "Active Volunteers", "icon": "volunteer" },
+      { "number": "20+", "label": "Species Protected", "icon": "species" }
+    ],
+    "testimonials": [
+      {
+        "quote": "The_Birds_Vet saved a pigeon that was injured near my home. Their quick response and care was amazing!",
+        "author": "Rahul S.",
+        "location": "Bareilly"
+      },
+      {
+        "quote": "Wonderful team doing incredible work for our feathered friends. Proud to volunteer with them.",
+        "author": "Swati V.",
+        "location": "Volunteer"
+      }
+    ]
+  },
+  "getInvolved": {
+    "subtitle": "Join Us",
+    "title": "Get Involved",
+    "description": "There are many ways you can help us protect and care for birds. Every contribution makes a difference.",
+    "options": [
+      {
+        "title": "Volunteer",
+        "description": "Join our team of dedicated volunteers. Help with rescues, feeding stations, or awareness programs.",
+        "cta": "Join Now",
+        "icon": "volunteer"
+      },
+      {
+        "title": "Donate",
+        "description": "Your donations help us provide medical care, food, and shelter for birds in need.",
+        "cta": "Donate",
+        "icon": "donate"
+      },
+      {
+        "title": "Report a Bird",
+        "description": "Found an injured or stranded bird? Report it to us and we'll send help immediately.",
+        "cta": "Report",
+        "icon": "report"
+      },
+      {
+        "title": "Spread Awareness",
+        "description": "Share our mission with friends and family. Follow us on social media and help spread the word.",
+        "cta": "Share",
+        "icon": "share"
+      }
+    ]
+  },
+  "gallery": {
+    "subtitle": "Our Work",
+    "title": "Gallery",
+    "description": "A glimpse into our rescue operations, rehabilitation center, and the beautiful birds we've helped.",
+    "photos": [
+      "/photos/Picsart_22-11-05_08-18-18-148.jpg",
+      "/photos/Picsart_22-11-09_19-43-47-466.jpg",
+      "/photos/Picsart_24-10-13_09-52-41-550.jpg",
+      "/photos/Picsart_24-10-31_15-46-46-807.jpg",
+      "/photos/Picsart_24-11-01_10-00-18-735.jpg",
+      "/photos/Picsart_24-11-09_12-24-52-790.jpg",
+      "/photos/Picsart_24-11-09_23-42-18-998.jpg",
+      "/photos/Picsart_24-11-10_00-52-39-957.jpg",
+      "/photos/Picsart_24-11-10_00-56-35-007.jpg",
+      "/photos/Picsart_24-11-10_01-02-38-104.jpg",
+      "/photos/Picsart_24-11-10_01-07-46-120.jpg",
+      "/photos/Picsart_24-11-10_01-10-06-482.jpg",
+      "/photos/Picsart_24-11-10_01-11-35-904.jpg",
+      "/photos/Picsart_24-11-10_01-32-35-855.jpg",
+      "/photos/Picsart_24-11-10_01-35-31-367.jpg",
+      "/photos/Picsart_24-11-10_01-39-14-956.jpg",
+      "/photos/Picsart_24-11-10_10-05-23-542.jpg",
+      "/photos/Picsart_24-11-10_10-33-34-269.jpg",
+      "/photos/Picsart_24-11-10_10-41-25-630.jpg",
+      "/photos/Picsart_24-11-10_10-44-28-554.jpg",
+      "/photos/Picsart_24-11-13_12-52-01-903.jpg",
+      "/photos/Picsart_24-11-13_19-11-48-075.jpg",
+      "/photos/Picsart_24-11-22_10-27-06-238.jpg",
+      "/photos/Picsart_24-11-22_11-13-23-249.jpg",
+      "/photos/Picsart_24-11-22_18-45-59-289.jpg",
+      "/photos/Picsart_24-11-22_19-13-38-956.jpg",
+      "/photos/Picsart_24-12-17_09-35-19-371.jpg",
+      "/photos/Picsart_24-12-23_20-37-19-190.jpg",
+      "/photos/Picsart_25-01-09_22-11-11-676.jpg",
+      "/photos/Picsart_25-01-18_16-21-10-492.jpg",
+      "/photos/Picsart_25-01-18_18-20-58-995.jpg",
+      "/photos/Picsart_25-02-25_16-57-48-335.jpg",
+      "/photos/Picsart_25-03-06_21-02-27-550.jpg",
+      "/photos/Picsart_25-03-07_15-33-34-525.jpg",
+      "/photos/Picsart_25-04-13_08-54-06-641.jpg",
+      "/photos/Picsart_25-05-04_12-37-53-352.jpg",
+      "/photos/Picsart_25-05-05_05-21-47-252.jpg",
+      "/photos/Picsart_25-05-06_04-50-24-427.jpg",
+      "/photos/Picsart_25-05-06_19-26-54-860.jpg",
+      "/photos/Picsart_25-08-21_21-07-40-856.png",
+      "/photos/Picsart_25-11-07_12-06-16-470.jpg",
+      "/photos/Picsart_25-11-18_09-58-29-909.png",
+      "/photos/Picsart_25-12-04_18-24-10-259.jpg",
+      "/photos/Picsart_26-01-03_08-06-52-167.png",
+      "/photos/Picsart_26-01-08_16-15-55-947.png",
+      "/photos/Picsart_26-01-08_16-27-02-106.jpg"
+    ],
+    "videos": [
+      { "src": "/videos/VID-20250324-WA0000.mp4", "caption": "Release into Wild" },
+      { "src": "/videos/VID-20241214-WA0002.mp4", "caption": "Rescue Operations" },
+      { "src": "/videos/VID-20250218-WA0024.mp4", "caption": "Bird Care" }
+    ]
+  },
+  "knowledge": {
+    "subtitle": "Learn",
+    "title": "Knowledge Hub",
+    "description": "Tips and guides to help you care for birds and understand our avian friends better.",
+    "tips": [
+      {
+        "title": "Found an Injured Bird?",
+        "content": "Keep the bird in a dark, quiet, warm place. Don't try to feed or give water. Contact us immediately for professional help.",
+        "icon": "firstaid"
+      },
+      {
+        "title": "Bird-Friendly Garden",
+        "content": "Plant native trees and shrubs, provide fresh water, avoid pesticides, and create shelter areas for birds to nest.",
+        "icon": "garden"
+      },
+      {
+        "title": "Window Collisions",
+        "content": "Birds can't see glass. Use window decals, curtains, or external screens to prevent fatal collisions.",
+        "icon": "window"
+      },
+      {
+        "title": "Feeding Wild Birds",
+        "content": "Use proper bird feeders, provide fresh water, clean feeders regularly, and offer appropriate seeds for local species.",
+        "icon": "feeding"
+      }
+    ]
+  },
+  "emergency": {
+    "title": "Found an Injured Bird?",
+    "description": "Don't wait! Call our 24/7 helpline immediately for rescue assistance.",
+    "phone": "+91 9450601398",
+    "whatsapp": "+91 9450601398"
+  },
+  "team": [
+    {
+      "name": "Dr. Veterinarian",
+      "role": "Founder & Lead Vet",
+      "image": "/photos/Picsart_24-11-10_10-44-28-554.jpg",
+      "bio": "Passionate about avian care with 10+ years of experience in bird medicine and conservation."
+    },
+    {
+      "name": "Team Member",
+      "role": "Rescue Coordinator",
+      "image": "/photos/Picsart_24-11-13_12-52-01-903.jpg",
+      "bio": "Coordinates rescue operations and manages our volunteer network across the region."
+    },
+    {
+      "name": "Volunteer Lead",
+      "role": "Community Outreach",
+      "image": "/photos/Picsart_24-11-22_11-13-23-249.jpg",
+      "bio": "Leads awareness programs in schools and communities to spread the message of bird conservation."
+    }
+  ],
+  "contact": {
+    "phone": "+91 9450601398",
+    "whatsapp": "+91 9450601398",
+    "email": "contact@thebirdsvet.org",
+    "address": "Lucknow, Uttar Pradesh, India",
+    "social": {
+      "facebook": "https://facebook.com/thebirdsvet",
+      "instagram": "https://www.instagram.com/the_birds_vet/",
+      "youtube": "https://youtube.com/@thebirdsvet",
+      "twitter": "https://twitter.com/thebirdsvet"
+    }
+  },
+  "footer": {
+    "description": "Dedicated to saving birds, protecting nature, and creating a world where wildlife and humans coexist in harmony.",
+    "quickLinks": [
+      { "label": "About Us", "href": "#about" },
+      { "label": "What We Do", "href": "#services" },
+      { "label": "Our Impact", "href": "#impact" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Knowledge Hub", "href": "#knowledge" }
+    ],
+    "getInvolved": [
+      { "label": "Volunteer", "href": "#get-involved" },
+      { "label": "Report a Bird", "href": "#contact" },
+      { "label": "Donate", "href": "#donate" },
+      { "label": "Partner with Us", "href": "#contact" }
+    ],
+    "newsletter": {
+      "title": "Stay Connected",
+      "description": "Subscribe to our newsletter for updates on rescues, events, and ways to help."
+    },
+    "copyright": "The_Birds_Vet. All rights reserved."
+  }
+}
