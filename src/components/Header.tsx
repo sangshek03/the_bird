@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import siteContent from '@/data/siteContent.json'
 
 export default function Header() {
@@ -60,14 +61,25 @@ export default function Header() {
             <ul className="flex items-center gap-6">
               {siteContent.navigation.map((item) => (
                 <li key={item.href}>
-                  <a
-                    href={item.href}
-                    className={`text-sm font-medium relative py-2 transition-colors hover:text-leaf-green ${
-                      isScrolled ? 'text-text-primary' : 'text-white/90'
-                    } after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:rounded-full after:transition-all hover:after:w-full`}
-                  >
-                    {item.label}
-                  </a>
+                  {item.href.startsWith('/') ? (
+                    <Link
+                      href={item.href}
+                      className={`text-sm font-medium relative py-2 transition-colors hover:text-leaf-green ${
+                        isScrolled ? 'text-text-primary' : 'text-white/90'
+                      } after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:rounded-full after:transition-all hover:after:w-full`}
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={item.href}
+                      className={`text-sm font-medium relative py-2 transition-colors hover:text-leaf-green ${
+                        isScrolled ? 'text-text-primary' : 'text-white/90'
+                      } after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:rounded-full after:transition-all hover:after:w-full`}
+                    >
+                      {item.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -112,13 +124,23 @@ export default function Header() {
             <ul className="flex flex-col gap-2">
               {siteContent.navigation.map((item) => (
                 <li key={item.href}>
-                  <a
-                    href={item.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
-                    className="block py-2 px-4 text-text-primary hover:bg-leaf-pale rounded-lg transition-colors"
-                  >
-                    {item.label}
-                  </a>
+                  {item.href.startsWith('/') ? (
+                    <Link
+                      href={item.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="block py-2 px-4 text-text-primary hover:bg-leaf-pale rounded-lg transition-colors"
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={item.href}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className="block py-2 px-4 text-text-primary hover:bg-leaf-pale rounded-lg transition-colors"
+                    >
+                      {item.label}
+                    </a>
+                  )}
                 </li>
               ))}
               <li className="pt-2 border-t border-leaf-pale mt-2">

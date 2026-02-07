@@ -129,6 +129,16 @@ export default function Hero() {
             {/* Content */}
             <div className="relative z-20 max-w-7xl mx-auto px-6 w-full">
                 <div className="max-w-3xl mx-auto text-center pt-24">
+                    {/* Site Name */}
+                    {/* <h2 className="font-heading text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 animate-fade-in-up">
+                        {siteContent.siteInfo.name}
+                    </h2> */}
+
+                    {/* Tagline */}
+                    {/* <p className="text-sm sm:text-base text-sun-warm font-semibold tracking-widest mb-4 animate-fade-in-up">
+                        {siteContent.siteInfo.tagline}
+                    </p> */}
+
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 border border-white/25 rounded-full mb-6 backdrop-blur-sm animate-fade-in-up">
                         <span className="w-2 h-2 bg-leaf-green rounded-full animate-pulse-slow" />

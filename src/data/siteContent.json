@@ -1,8 +1,8 @@
 {
   "siteInfo": {
-    "name": "The_Birds_Vet",
-    "tagline": "Veterinary Care | Conservation | Nurture",
-    "established": "2022",
+    "name": "The_Birds_Vet Trust of India",
+    "tagline": "Feeding | Conservation | Nurture",
+    "established": "2020",
     "logo": "/photos/logo.jpg"
   },
   "navigation": [
@@ -12,28 +12,29 @@
     { "label": "Services", "href": "#services" },
     { "label": "Impact", "href": "#impact" },
     { "label": "Gallery", "href": "#gallery" },
+    { "label": "Team", "href": "/team" },
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
-    "badge": "Registered NGO",
-    "title": ["Every Wing", "Deserves to Soar"],
-    "highlight": "Soar",
-    "subtitle": "We provide veterinary care, rescue injured birds, and protect natural habitats. Together, we're building a world where birds and humans coexist in harmony.",
-    "primaryCta": { "text": "Donate Now", "href": "#donate" },
-    "secondaryCta": { "text": "Report Injured Bird", "href": "#contact" },
+    "badge": "Registered Trust",
+    "title": ["Every Wing", "Deserves to Fly"],
+    "highlight": "Fly",
+    "subtitle": "We are trying to save that morning that begins with the gentle chirping of birds. These sounds are not just the voices of birds, these are a prayer for survival. Saving them is, in essence, saving humanity.",
+    "primaryCta": { "text": "A small donation for Bird wings", "href": "#donate" },
+    "secondaryCta": { "text": "Be a part of this journey", "href": "#contact" },
     "stats": [
       { "number": "500+", "label": "Birds Rescued" },
       { "number": "50+", "label": "Feeding Stations" },
-      { "number": "100+", "label": "Volunteers" }
+      { "number": "10+", "label": "Volunteers" }
     ],
     "video": "/videos/VID-20241214-WA0002.mp4"
   },
   "about": {
     "subtitle": "Who We Are",
-    "title": "The_Birds_Vet",
+    "title": "The_Birds_Vet Trust of India",
     "description": [
-      "The_Birds_Vet is a dedicated group of veterinarians, conservationists, and bird lovers committed to providing compassionate care for avian species. We believe every bird deserves a chance to fly free.",
-      "Our team works tirelessly to rescue injured birds, provide medical treatment, rehabilitate them, and release them back into their natural habitat. We also run awareness programs and feeding stations across the region."
+      "Our team works tirelessly to provide food, rescue injured birds, offer medical treatment, rehabilitate them, and safely release them back into their natural habitat.",
+      "We also run awareness programs and operate bird-feeding stations across the region, creating a safer and more compassionate environment for birdlife."
     ],
     "mission": "Our mission is to ensure the well-being and protection of avian species, fostering a harmonious coexistence between Humans and Birds. To protect and promote the welfare of Birds through compassionate care.",
     "badges": [
@@ -53,32 +54,39 @@
     "description": "From a small group of passionate bird lovers to a movement touching hundreds of lives — here's our story of growth and impact.",
     "milestones": [
       {
-        "year": "2022",
+        "year": "2020",
         "title": "The Beginning",
-        "description": "The_Birds_Vet was founded when a group of passionate veterinarians and bird lovers came together to rescue an injured kite. That single act of compassion sparked a mission to protect all birds.",
+        "description": "The_Birds_Vet Trust of India was founded when a group of passionate bird lovers came together to rescue an injured Himalayan Bulbul. That one act of kindness gave birth to a mission to protect all the birds.",
         "stat": { "number": "5", "label": "Founding Members" },
-        "image": "/photos/Picsart_22-11-05_08-18-18-148.jpg"
+        "image": "/photos/Picsart_25-05-05_05-21-47-252.jpg"
       },
       {
-        "year": "2023",
-        "title": "First Rescue Center",
-        "description": "Opened our first dedicated bird rescue and rehabilitation center with proper medical facilities, cages, and trained volunteers ready to help birds in need.",
+        "year": "2022",
+        "title": "Nest of Grass",
+        "description": "We making nests with straws of grass, where birds fearlessly accept their homes, cherishing dreams and finding peace. Their chirping tells us that this world has become livable again.",
         "stat": { "number": "100+", "label": "Birds Treated" },
         "image": "/photos/Picsart_24-10-13_09-52-41-550.jpg"
       },
       {
         "year": "2024",
         "title": "Community Outreach",
-        "description": "Launched our urban bird feeding initiative, installing feeding stations across parks, schools, and community spaces. Started awareness programs in schools and colleges.",
+        "description": "We are taking a small initiative to provide food and water for all flying birds. Bird feeding stations are being set up in parks, open grounds, schools, and community spaces. Through awareness programs in schools and colleges, we are connecting the new generation with nature. This is not just about feeding birds, it is our responsibility toward all flying life.",
         "stat": { "number": "50+", "label": "Feeding Stations" },
-        "image": "/photos/Picsart_24-11-10_01-32-35-855.jpg"
+        "image": "/photos/WhatsApp-Image-2026-01-28-at-11.58.11-AM.jpeg"
       },
       {
         "year": "2025",
         "title": "Growing Impact",
         "description": "Expanded our reach with more volunteers, more rescues, and a stronger community. Our dedication continues to grow as we help more birds every day.",
         "stat": { "number": "500+", "label": "Total Birds Rescued" },
-        "image": "/photos/Picsart_25-11-07_12-06-16-470.jpg"
+        "image": "/photos/WhatsApp-Image-2026-01-28-at-12.19.01-PM.jpeg"
+      },
+      {
+        "year": "2026",
+        "title": "Feeding Stations",
+        "description": "We establish and maintain bird feeding stations across open areas to ensure a reliable supply of food and water for flying birds.",
+        "stat": { "number": "5+", "label": "Total Feeding Stations" },
+        "image": "/photos/feeding.jpeg"
       }
     ]
   },
@@ -258,26 +266,52 @@
     "phone": "+91 9450601398",
     "whatsapp": "+91 9450601398"
   },
-  "team": [
-    {
-      "name": "Dr. Veterinarian",
-      "role": "Founder & Lead Vet",
-      "image": "/photos/Picsart_24-11-10_10-44-28-554.jpg",
-      "bio": "Passionate about avian care with 10+ years of experience in bird medicine and conservation."
+  "team": {
+    "founder": {
+      "name": "Dr. Beerendra Kumar Verma",
+      "role": "Founder & President",
+      "image": "/photos/dr-beerendra-kumar-verma.png",
+      "bio": "The visionary behind The_Birds_Vet Trust of India. His deep love for birds and unwavering commitment to their welfare laid the foundation of this mission."
     },
-    {
-      "name": "Team Member",
-      "role": "Rescue Coordinator",
-      "image": "/photos/Picsart_24-11-13_12-52-01-903.jpg",
-      "bio": "Coordinates rescue operations and manages our volunteer network across the region."
-    },
-    {
-      "name": "Volunteer Lead",
-      "role": "Community Outreach",
-      "image": "/photos/Picsart_24-11-22_11-13-23-249.jpg",
-      "bio": "Leads awareness programs in schools and communities to spread the message of bird conservation."
-    }
-  ],
+    "members": [
+      {
+        "name": "Dr. Vijay Kumar",
+        "role": "Vice President / Director",
+        "image": "/photos/dr-vijay-kumar.jpg",
+        "bio": "Guides the strategic direction of the trust and oversees conservation initiatives."
+      },
+      {
+        "name": "Dr. Anoop Kumar Shastri",
+        "role": "Deputy Director",
+        "image": "/photos/anoop.jpeg",
+        "bio": "Supports organizational leadership and ensures smooth execution of rescue and rehabilitation programs."
+      },
+      {
+        "name": "Dr. Rohit Kumar",
+        "role": "Treasurer",
+        "image": "/photos/rohit-kumar.jpg",
+        "bio": "Manages the financial operations of the trust, ensuring transparency and responsible use of resources."
+      },
+      {
+        "name": "Swati Verma",
+        "role": "Co-founder / Trustee",
+        "image": "/photos/swati-verma.jpg",
+        "bio": "A founding pillar of the trust, dedicated to building a compassionate community for bird welfare."
+      },
+      {
+        "name": "Abhishek Verma",
+        "role": "Technology Head",
+        "image": "/photos/abhishek-verma.jpeg",
+        "bio": "Leads the trust's digital presence and technology initiatives, including website development, while managing administrative operations."
+      },
+      {
+        "name": "Mr. Abhilash Verma",
+        "role": "Bird Care Coordinator",
+        "image": "/photos/abhilash.jpeg",
+        "bio": "Coordinates daily bird care operations including feeding, rehabilitation, and release activities."
+      }
+    ]
+  },
   "contact": {
     "phone": "+91 9450601398",
     "whatsapp": "+91 9450601398",
@@ -309,6 +343,6 @@
       "title": "Stay Connected",
       "description": "Subscribe to our newsletter for updates on rescues, events, and ways to help."
     },
-    "copyright": "The_Birds_Vet. All rights reserved."
+    "copyright": "The_Birds_Vet_Trust_of_India. All rights reserved."
   }
 }

@@ -38,7 +38,7 @@ module.exports = {
       },
       fontFamily: {
         heading: ['var(--font-cormorant)', 'Georgia', 'serif'],
-        body: ['var(--font-nunito)', 'Segoe UI', 'sans-serif'],
+        body: ['Segoe UI', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         'sm': '8px',
