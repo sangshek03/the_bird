@@ -44,9 +44,16 @@ function MapInner({ stations }: FeedingStationMapProps) {
 
   useEffect(() => {
     async function loadLeaflet() {
+      // Load Leaflet CSS via link tag
+      if (!document.querySelector('link[href*="leaflet"]')) {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'
+        document.head.appendChild(link)
+      }
+
       const L = await import('leaflet')
       const RL = await import('react-leaflet')
-      await import('leaflet/dist/leaflet.css')
 
       setComponents({
         MapContainer: RL.MapContainer,

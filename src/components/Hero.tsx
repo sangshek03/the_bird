@@ -63,16 +63,20 @@ export default function Hero() {
         })
         observer.observe(document.body, { childList: true, subtree: true })
 
-        // Try to play audio on user interaction (browser autoplay policy)
-        const playOnInteraction = () => {
-            audio.play().then(() => {
-                setIsPlaying(true)
-            }).catch(() => {})
-            document.removeEventListener('click', playOnInteraction)
-            document.removeEventListener('scroll', playOnInteraction)
-        }
-        document.addEventListener('click', playOnInteraction)
-        document.addEventListener('scroll', playOnInteraction)
+        // Try to autoplay immediately on load
+        audio.play().then(() => {
+            setIsPlaying(true)
+        }).catch(() => {
+            // Browser blocked autoplay — play on first user interaction
+            const events = ['click', 'scroll', 'touchstart', 'mousemove', 'keydown']
+            const playOnInteraction = () => {
+                audio.play().then(() => {
+                    setIsPlaying(true)
+                }).catch(() => {})
+                events.forEach(e => document.removeEventListener(e, playOnInteraction))
+            }
+            events.forEach(e => document.addEventListener(e, playOnInteraction, { once: true }))
+        })
 
         return () => {
             const videos = document.querySelectorAll('video')
@@ -82,8 +86,6 @@ export default function Hero() {
                 video.removeEventListener('ended', handleVideoPause)
             })
             observer.disconnect()
-            document.removeEventListener('click', playOnInteraction)
-            document.removeEventListener('scroll', playOnInteraction)
         }
     }, [])
 
