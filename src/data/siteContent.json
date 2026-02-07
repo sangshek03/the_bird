@@ -12,6 +12,7 @@
     { "label": "Services", "href": "#services" },
     { "label": "Impact", "href": "#impact" },
     { "label": "Gallery", "href": "#gallery" },
+    { "label": "Feeding Stations", "href": "/feeding-stations" },
     { "label": "Team", "href": "/team" },
     { "label": "Contact", "href": "#contact" }
   ],
@@ -309,6 +310,49 @@
         "role": "Bird Care Coordinator",
         "image": "/photos/abhilash.jpeg",
         "bio": "Coordinates daily bird care operations including feeding, rehabilitation, and release activities."
+      }
+    ]
+  },
+  "feedingStations": {
+    "title": "Feeding Stations",
+    "subtitle": "Nourishing Wings Across India",
+    "description": "We establish and maintain bird feeding stations across the country, ensuring a reliable supply of food and water for birds in need.",
+    "stations": [
+      {
+        "name": "Feeding Station - Rikhtal",
+        "caretaker": "Kaushalya Devi w/o Ramesh Chandra",
+        "location": "Rikhtal, Jakhpant, Pithoragarh, Uttarakhand",
+        "lat": 29.5829,
+        "lng": 80.2182,
+        "image": "/photos/feeding-station-1.jpeg",
+        "description": "A dedicated feeding station managed by Kaushalya Devi, providing daily food and water for local bird species in the Jakhpant area."
+      },
+      {
+        "name": "Feeding Station - Bilai",
+        "caretaker": "Narayan Ram s/o Bishan Ram",
+        "location": "Marh, Bilai, Pithoragarh, Uttarakhand",
+        "lat": 29.5300,
+        "lng": 80.1800,
+        "image": "/photos/feeding-station-bilai.jpeg",
+        "description": "Located in the serene village of Bilai, this station is maintained by Narayan Ram to support the diverse birdlife of the region."
+      },
+      {
+        "name": "Feeding Station - Chandak",
+        "caretaker": "Prema Khampa w/o Prem Singh Khampa",
+        "location": "Chandak, Chandak R.F., Pithoragarh, Uttarakhand",
+        "lat": 29.5985,
+        "lng": 80.1851,
+        "image": "/photos/feeding-station-3.jpeg",
+        "description": "Nestled near the Chandak Reserve Forest, this feeding station serves as a vital resource for birds in the protected area, managed by Prema Khampa."
+      },
+      {
+        "name": "Feeding Station - Saurlekh",
+        "caretaker": "Suresh Ram s/o Dev Ram",
+        "location": "Saurlekh, Garhgaon, Pithoragarh, Uttarakhand",
+        "lat": 29.55,
+        "lng": 80.25,
+        "image": "/photos/feeding-station-4.jpeg",
+        "description": "Maintained by Suresh Ram in the Garhgaon area, this feeding station provides essential nourishment for birds in the Saurlekh region."
       }
     ]
   },
