@@ -8,6 +8,7 @@ interface Station {
   location: string
   lat: number
   lng: number
+  image: string
 }
 
 interface FeedingStationMapProps {
@@ -47,14 +48,6 @@ function MapInner({ stations }: FeedingStationMapProps) {
       const RL = await import('react-leaflet')
       await import('leaflet/dist/leaflet.css')
 
-      // Fix default marker icon
-      delete (L.Icon.Default.prototype as any)._getIconUrl
-      L.Icon.Default.mergeOptions({
-        iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
-        iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
-      })
-
       setComponents({
         MapContainer: RL.MapContainer,
         TileLayer: RL.TileLayer,
@@ -74,10 +67,40 @@ function MapInner({ stations }: FeedingStationMapProps) {
     )
   }
 
-  const { MapContainer, TileLayer, Marker, Popup } = components
+  const { MapContainer, TileLayer, Marker, Popup, L } = components
 
   // Center map on Pithoragarh region
   const center: [number, number] = [29.57, 80.19]
+
+  const createImageIcon = (imageUrl: string) => {
+    return L.divIcon({
+      className: '',
+      html: `
+        <div style="
+          width: 56px;
+          height: 56px;
+          border-radius: 50%;
+          border: 3px solid #2d6a4f;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+          overflow: hidden;
+          background: white;
+        ">
+          <img src="${imageUrl}" style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+        <div style="
+          width: 0;
+          height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-top: 10px solid #2d6a4f;
+          margin: -2px auto 0;
+        "></div>
+      `,
+      iconSize: [56, 68],
+      iconAnchor: [28, 68],
+      popupAnchor: [0, -68],
+    })
+  }
 
   return (
     <MapContainer
@@ -91,7 +114,11 @@ function MapInner({ stations }: FeedingStationMapProps) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       {stations.map((station, index) => (
-        <Marker key={index} position={[station.lat, station.lng] as [number, number]}>
+        <Marker
+          key={index}
+          position={[station.lat, station.lng] as [number, number]}
+          icon={createImageIcon(station.image)}
+        >
           <Popup>
             <div className="text-sm">
               <p className="font-bold text-forest-primary">{station.name}</p>
