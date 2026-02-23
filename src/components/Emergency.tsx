@@ -35,18 +35,21 @@ export default function Emergency() {
 
           {/* Actions */}
           <div className="flex flex-wrap gap-3">
-            <a
-              href={`tel:${emergency.phone.replace(/\s/g, '')}`}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-coral-soft font-semibold rounded-full shadow-large hover:-translate-y-0.5 transition-all"
-            >
-              <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
-              </svg>
-              {emergency.phone}
-            </a>
+            {emergency.phone.map((num: string, i: number) => (
+              <a
+                key={i}
+                href={`tel:${num.replace(/\s/g, '')}`}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-coral-soft font-semibold rounded-full shadow-large hover:-translate-y-0.5 transition-all"
+              >
+                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                </svg>
+                {num}
+              </a>
+            ))}
 
             <a
-              href={`https://wa.me/${emergency.whatsapp.replace(/[^0-9]/g, '')}`}
+              href={`https://wa.me/${emergency.whatsapp[0].replace(/[^0-9]/g, '')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold rounded-full shadow-large hover:-translate-y-0.5 transition-all"

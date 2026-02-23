@@ -264,8 +264,8 @@
   "emergency": {
     "title": "Found an Injured Bird?",
     "description": "Don't wait! Call our 24/7 helpline immediately for rescue assistance.",
-    "phone": "+91 9450601398",
-    "whatsapp": "+91 9450601398"
+    "phone": ["+91 9450601398", "+91 81975 24137"],
+    "whatsapp": ["+91 9450601398", "+91 81975 24137"]
   },
   "team": {
     "founder": {
@@ -277,7 +277,7 @@
     "members": [
       {
         "name": "Dr. Vijay Kumar",
-        "role": "Vice President / Director",
+        "role": "Co-founder/Vice President/Director",
         "image": "/photos/dr-vijay-kumar.jpg",
         "bio": "Guides the strategic direction of the trust and oversees conservation initiatives."
       },
@@ -288,8 +288,8 @@
         "bio": "Supports organizational leadership and ensures smooth execution of rescue and rehabilitation programs."
       },
       {
-        "name": "Dr. Rohit Kumar",
-        "role": "Treasurer",
+        "name": "Rohit Kumar",
+        "role": "Co-founder / Treasurer",
         "image": "/photos/rohit-kumar.jpg",
         "bio": "Manages the financial operations of the trust, ensuring transparency and responsible use of resources."
       },
@@ -353,16 +353,79 @@
         "lng": 80.25,
         "image": "/photos/feeding-station-4.jpeg",
         "description": "Maintained by Suresh Ram in the Garhgaon area, this feeding station provides essential nourishment for birds in the Saurlekh region."
+      },
+      {
+        "name": "Feeding Station - Buddha Temple",
+        "caretaker": "",
+        "location": "Buddha Temple, Pithoragarh, Uttarakhand",
+        "lat": 29.5833,
+        "lng": 80.2167,
+        "image": "/photos/feeding-station-5.jpeg",
+        "description": "A peaceful feeding station located near the Buddha Temple in Pithoragarh, providing food and water for birds visiting the sacred grounds."
+      },
+      {
+        "name": "Feeding Station - Sirkuch",
+        "caretaker": "Dinesh Chandra s/o Dhani Chand Sirkuch",
+        "location": "Sirkuch, Pithoragarh, Uttarakhand",
+        "lat": 29.57,
+        "lng": 80.23,
+        "image": "/photos/feeding-station-6.jpeg",
+        "description": "Managed by Dinesh Chandra in the village of Sirkuch, this station ensures a steady supply of food for the local bird population."
+      },
+      {
+        "name": "Feeding Station - Lumati",
+        "caretaker": "Dheeraj Singh s/o Laxman Singh Lumati",
+        "location": "Lumati, Pithoragarh, Uttarakhand",
+        "lat": 29.56,
+        "lng": 80.20,
+        "image": "/photos/feeding-station-7.jpeg",
+        "description": "Situated in Lumati village, this feeding station is maintained by Dheeraj Singh to support the birdlife in the area."
+      },
+      {
+        "name": "Feeding Station - BSF Academy Tekanpur",
+        "caretaker": "Dr. Raj Mahal (Commandant) & Dr. Anurag Arya (Deputy Commandant)",
+        "location": "NTCD, BSF Academy, Tekanpur, Gwalior, Madhya Pradesh",
+        "lat": 26.2183,
+        "lng": 78.2025,
+        "image": "/photos/feeding-station-8.jpeg",
+        "description": "A special feeding station established at the BSF Academy in Tekanpur, Gwalior, managed by Dr. Raj Mahal and Dr. Anurag Arya, extending bird welfare beyond Uttarakhand."
+      },
+      {
+        "name": "Feeding Station - Lucknow",
+        "caretaker": "Geeta Rani w/o Mata Prasad",
+        "location": "Friends Colony, Lucknow, Uttar Pradesh",
+        "lat": 26.8467,
+        "lng": 80.9462,
+        "image": "/photos/feeding-station-9.jpeg",
+        "description": "Located in Friends Colony, Lucknow, this station is lovingly maintained by Geeta Rani, bringing bird care to the heart of Uttar Pradesh."
+      },
+      {
+        "name": "Feeding Station - Rangtoli",
+        "caretaker": "Mayank Singh s/o Sandeep Singh",
+        "location": "Rangtoli, Lasiyari, Chamoli, Uttarakhand",
+        "lat": 30.40,
+        "lng": 79.33,
+        "image": "/photos/feeding-station-10.jpeg",
+        "description": "Nestled in the scenic Chamoli district, this feeding station is managed by Mayank Singh, supporting birds in the high-altitude region."
+      },
+      {
+        "name": "Feeding Station - Bansmahtoli",
+        "caretaker": "Govind Singh s/o Kishan Singh",
+        "location": "Bansmahtoli, Pabhen, Pithoragarh, Uttarakhand",
+        "lat": 29.54,
+        "lng": 80.21,
+        "image": "/photos/feeding-station-11.jpeg",
+        "description": "Managed by Govind Singh in Bansmahtoli village, this station provides vital nourishment for birds in the Pabhen area."
       }
     ]
   },
   "contact": {
-    "phone": "+91 9450601398",
-    "whatsapp": "+91 9450601398",
+    "phone": ["+91 9450601398", "+91 81975 24137"],
+    "whatsapp": ["+91 9450601398", "+91 81975 24137"],
     "email": "contact@thebirdsvet.org",
     "address": "Lucknow, Uttar Pradesh, India",
     "social": {
-      "facebook": "https://facebook.com/thebirdsvet",
+      "facebook": "https://www.facebook.com/share/1DPDKbKA5F/",
       "instagram": "https://www.instagram.com/the_birds_vet/",
       "youtube": "https://youtube.com/@thebirdsvet",
       "twitter": "https://twitter.com/thebirdsvet"
