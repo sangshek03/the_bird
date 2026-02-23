@@ -12,7 +12,7 @@ export default function FeedingStationsPage() {
       <div className="bg-gradient-to-br from-forest-deep to-forest-primary text-white py-6 px-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 rounded-lg overflow-hidden">
+            <div className="w-10 h-10 rounded-full overflow-hidden">
               <Image
                 src={siteContent.siteInfo.logo}
                 alt={siteContent.siteInfo.name}

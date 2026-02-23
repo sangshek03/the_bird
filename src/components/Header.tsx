@@ -29,7 +29,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-lg overflow-hidden shadow-soft">
+            <div className="w-12 h-12 rounded-full overflow-hidden shadow-soft">
               <Image
                 src={siteContent.siteInfo.logo}
                 alt={siteContent.siteInfo.name}

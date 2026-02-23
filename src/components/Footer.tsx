@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-lg overflow-hidden">
+              <div className="w-12 h-12 rounded-full overflow-hidden">
                 <Image
                   src={siteInfo.logo}
                   alt={siteInfo.name}
