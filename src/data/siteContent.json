@@ -44,7 +44,7 @@
       "Habitat Conservation"
     ],
     "images": [
-      "/photos/Picsart_24-11-10_10-41-25-630.jpg",
+      "/photos/feeding-station-8.jpeg",
       "/photos/Picsart_24-11-09_12-24-52-790.jpg",
       "/photos/Picsart_24-10-13_09-52-41-550.jpg"
     ]
@@ -105,25 +105,29 @@
         "title": "Bird Rescue",
         "description": "24/7 emergency response team ready to rescue injured, sick, or stranded birds from anywhere in the region.",
         "image": "/photos/Picsart_24-11-10_00-52-39-957.jpg",
-        "icon": "rescue"
+        "icon": "rescue",
+        "portrait": true
       },
       {
         "title": "Veterinary Care",
         "description": "Professional medical treatment including surgeries, medications, and specialized care for all avian species.",
         "image": "/photos/Picsart_24-11-09_23-42-18-998.jpg",
-        "icon": "medical"
+        "icon": "medical",
+        "portrait": true
       },
       {
         "title": "Rehabilitation",
         "description": "Safe recovery spaces where birds can heal and regain their strength before being released back into the wild.",
         "image": "/photos/Picsart_24-11-10_01-07-46-120.jpg",
-        "icon": "rehab"
+        "icon": "rehab",
+        "portrait": true
       },
       {
         "title": "Feeding Stations",
         "description": "We establish and maintain bird feeding stations across urban areas to provide food and water for wild birds.",
         "image": "/photos/Picsart_24-11-10_01-10-06-482.jpg",
-        "icon": "feeding"
+        "icon": "feeding",
+        "portrait": false
       }
     ]
   },

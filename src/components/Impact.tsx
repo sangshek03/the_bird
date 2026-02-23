@@ -61,37 +61,6 @@ export default function Impact() {
           ))}
         </div>
 
-        {/* Testimonials */}
-        {impact.testimonials.length > 0 && (
-          <div className="grid md:grid-cols-2 gap-6">
-            {impact.testimonials.map((testimonial, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl p-6 shadow-large"
-              >
-                <svg className="w-10 h-10 fill-leaf-green mb-4" viewBox="0 0 24 24">
-                  <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z" />
-                </svg>
-                <p className="text-text-secondary italic mb-4 leading-relaxed">
-                  &ldquo;{testimonial.quote}&rdquo;
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-leaf-green to-forest-primary rounded-full flex items-center justify-center text-white font-bold">
-                    {testimonial.author.charAt(0)}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-text-primary">
-                      {testimonial.author}
-                    </div>
-                    <div className="text-sm text-text-muted">
-                      {testimonial.location}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
       </div>
     </section>
   )

@@ -39,7 +39,7 @@ export default function Services() {
               className="card group"
             >
               {/* Image */}
-              <div className="relative h-44 overflow-hidden">
+              <div className={`relative ${service.portrait ? 'h-64' : 'h-44'} overflow-hidden`}>
                 <Image
                   src={service.image}
                   alt={service.title}
