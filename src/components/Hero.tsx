@@ -145,8 +145,7 @@ export default function Hero() {
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 border border-white/25 rounded-full mb-6 backdrop-blur-sm animate-fade-in-up">
                         <span className="w-2 h-2 bg-leaf-green rounded-full animate-pulse-slow" />
                         <span className="text-sm font-semibold text-white tracking-wide">
-                            {hero.badge} &bull; Est.{' '}
-                            {siteContent.siteInfo.established}
+                            {hero.badge}
                         </span>
                     </div>
 

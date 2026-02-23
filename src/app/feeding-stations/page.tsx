@@ -80,7 +80,7 @@ export default function FeedingStationsPage() {
               >
                 {/* Image */}
                 <div className="md:w-1/2 relative">
-                  <div className="aspect-[4/3] relative">
+                  <div className={`${station.portrait ? 'aspect-[3/4]' : 'aspect-[4/3]'} relative`}>
                     <Image
                       src={station.image}
                       alt={station.name}

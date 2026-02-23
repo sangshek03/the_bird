@@ -59,35 +59,40 @@
         "title": "The Beginning",
         "description": "The_Birds_Vet Trust of India was founded when a group of passionate bird lovers came together to rescue an injured Himalayan Bulbul. That one act of kindness gave birth to a mission to protect all the birds.",
         "stat": { "number": "5", "label": "Founding Members" },
-        "image": "/photos/Picsart_25-05-05_05-21-47-252.jpg"
+        "image": "/photos/Picsart_25-05-05_05-21-47-252.jpg",
+        "portrait": false
       },
       {
         "year": "2022",
         "title": "Nest of Grass",
         "description": "We making nests with straws of grass, where birds fearlessly accept their homes, cherishing dreams and finding peace. Their chirping tells us that this world has become livable again.",
         "stat": { "number": "100+", "label": "Birds Treated" },
-        "image": "/photos/Picsart_24-10-13_09-52-41-550.jpg"
+        "image": "/photos/Picsart_24-10-13_09-52-41-550.jpg",
+        "portrait": false
       },
       {
         "year": "2024",
         "title": "Community Outreach",
         "description": "We are taking a small initiative to provide food and water for all flying birds. Bird feeding stations are being set up in parks, open grounds, schools, and community spaces. Through awareness programs in schools and colleges, we are connecting the new generation with nature. This is not just about feeding birds, it is our responsibility toward all flying life.",
         "stat": { "number": "50+", "label": "Feeding Stations" },
-        "image": "/photos/WhatsApp-Image-2026-01-28-at-11.58.11-AM.jpeg"
+        "image": "/photos/WhatsApp-Image-2026-01-28-at-11.58.11-AM.jpeg",
+        "portrait": true
       },
       {
         "year": "2025",
         "title": "Growing Impact",
         "description": "Expanded our reach with more volunteers, more rescues, and a stronger community. Our dedication continues to grow as we help more birds every day.",
         "stat": { "number": "500+", "label": "Total Birds Rescued" },
-        "image": "/photos/WhatsApp-Image-2026-01-28-at-12.19.01-PM.jpeg"
+        "image": "/photos/WhatsApp-Image-2026-01-28-at-12.19.01-PM.jpeg",
+        "portrait": false
       },
       {
         "year": "2026",
         "title": "Feeding Stations",
         "description": "We establish and maintain bird feeding stations across open areas to ensure a reliable supply of food and water for flying birds.",
         "stat": { "number": "5+", "label": "Total Feeding Stations" },
-        "image": "/photos/feeding.jpeg"
+        "image": "/photos/feeding.jpeg",
+        "portrait": true
       }
     ]
   },
@@ -274,18 +279,12 @@
       "image": "/photos/dr-beerendra-kumar-verma.png",
       "bio": "The visionary behind The_Birds_Vet Trust of India. His deep love for birds and unwavering commitment to their welfare laid the foundation of this mission."
     },
-    "members": [
+    "foundingMembers": [
       {
         "name": "Dr. Vijay Kumar",
         "role": "Co-founder/Vice President/Director",
         "image": "/photos/dr-vijay-kumar.jpeg",
         "bio": "Guides the strategic direction of the trust and oversees conservation initiatives."
-      },
-      {
-        "name": "Dr. Anoop Kumar Shastri",
-        "role": "Deputy Director",
-        "image": "/photos/anoop.jpeg",
-        "bio": "Supports organizational leadership and ensures smooth execution of rescue and rehabilitation programs."
       },
       {
         "name": "Rohit Kumar",
@@ -298,6 +297,14 @@
         "role": "Co-founder / Trustee",
         "image": "/photos/swati-verma.jpg",
         "bio": "A founding pillar of the trust, dedicated to building a compassionate community for bird welfare."
+      }
+    ],
+    "teamMembers": [
+      {
+        "name": "Dr. Anoop Kumar Shastri",
+        "role": "Deputy Director",
+        "image": "/photos/anoop.jpeg",
+        "bio": "Supports organizational leadership and ensures smooth execution of rescue and rehabilitation programs."
       },
       {
         "name": "Abhishek Verma",
@@ -325,6 +332,7 @@
         "lat": 29.5829,
         "lng": 80.2182,
         "image": "/photos/feeding-station-1.jpeg",
+        "portrait": true,
         "description": "A dedicated feeding station managed by Kaushalya Devi, providing daily food and water for local bird species in the Jakhpant area."
       },
       {
@@ -334,6 +342,7 @@
         "lat": 29.5300,
         "lng": 80.1800,
         "image": "/photos/feeding-station-bilai.jpeg",
+        "portrait": true,
         "description": "Located in the serene village of Bilai, this station is maintained by Narayan Ram to support the diverse birdlife of the region."
       },
       {
@@ -343,6 +352,7 @@
         "lat": 29.5985,
         "lng": 80.1851,
         "image": "/photos/feeding-station-3.jpeg",
+        "portrait": false,
         "description": "Nestled near the Chandak Reserve Forest, this feeding station serves as a vital resource for birds in the protected area, managed by Prema Khampa."
       },
       {
@@ -352,6 +362,7 @@
         "lat": 29.55,
         "lng": 80.25,
         "image": "/photos/feeding-station-4.jpeg",
+        "portrait": false,
         "description": "Maintained by Suresh Ram in the Garhgaon area, this feeding station provides essential nourishment for birds in the Saurlekh region."
       },
       {
@@ -361,6 +372,7 @@
         "lat": 29.5833,
         "lng": 80.2167,
         "image": "/photos/feeding-station-5.jpeg",
+        "portrait": false,
         "description": "A peaceful feeding station located near the Buddha Temple in Pithoragarh, providing food and water for birds visiting the sacred grounds."
       },
       {
@@ -370,6 +382,7 @@
         "lat": 29.57,
         "lng": 80.23,
         "image": "/photos/feeding-station-6.jpeg",
+        "portrait": true,
         "description": "Managed by Dinesh Chandra in the village of Sirkuch, this station ensures a steady supply of food for the local bird population."
       },
       {
@@ -379,6 +392,7 @@
         "lat": 29.56,
         "lng": 80.20,
         "image": "/photos/feeding-station-7.jpeg",
+        "portrait": false,
         "description": "Situated in Lumati village, this feeding station is maintained by Dheeraj Singh to support the birdlife in the area."
       },
       {
@@ -388,6 +402,7 @@
         "lat": 26.2183,
         "lng": 78.2025,
         "image": "/photos/feeding-station-8.jpeg",
+        "portrait": true,
         "description": "A special feeding station established at the BSF Academy in Tekanpur, Gwalior, managed by Dr. Raj Mahal and Dr. Anurag Arya, extending bird welfare beyond Uttarakhand."
       },
       {
@@ -397,6 +412,7 @@
         "lat": 26.8467,
         "lng": 80.9462,
         "image": "/photos/feeding-station-9.jpeg",
+        "portrait": false,
         "description": "Located in Friends Colony, Lucknow, this station is lovingly maintained by Geeta Rani, bringing bird care to the heart of Uttar Pradesh."
       },
       {
@@ -406,6 +422,7 @@
         "lat": 30.40,
         "lng": 79.33,
         "image": "/photos/feeding-station-10.jpeg",
+        "portrait": true,
         "description": "Nestled in the scenic Chamoli district, this feeding station is managed by Mayank Singh, supporting birds in the high-altitude region."
       },
       {
@@ -415,6 +432,7 @@
         "lat": 29.54,
         "lng": 80.21,
         "image": "/photos/feeding-station-11.jpeg",
+        "portrait": true,
         "description": "Managed by Govind Singh in Bansmahtoli village, this station provides vital nourishment for birds in the Pabhen area."
       }
     ]

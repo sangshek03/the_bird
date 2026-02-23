@@ -51,7 +51,7 @@ export default function Timeline() {
                     />
 
                     {/* Image */}
-                    <div className="relative h-36 rounded-lg overflow-hidden mb-4">
+                    <div className={`relative ${milestone.portrait ? 'aspect-[3/4]' : 'aspect-[4/3]'} rounded-lg overflow-hidden mb-4`}>
                       <Image
                         src={milestone.image}
                         alt={milestone.title}
