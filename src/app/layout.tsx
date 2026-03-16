@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   description: 'The_Birds_Vet is dedicated to providing veterinary care, conservation, and nurturing for birds. Our mission is to ensure the well-being and protection of avian species.',
   keywords: ['bird rescue', 'bird conservation', 'veterinary care', 'NGO', 'wildlife protection', 'bird rehabilitation'],
   authors: [{ name: 'The_Birds_Vet' }],
+  icons: {
+    icon: '/photos/logo.jpg',
+    apple: '/photos/logo.jpg',
+  },
   openGraph: {
     title: 'The_Birds_Vet | Saving Birds, Protecting Nature',
     description: 'A group dedicated to providing Veterinary care, conservation and nurture the Birds.',
