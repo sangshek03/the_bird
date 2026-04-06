@@ -1,477 +1,600 @@
 {
-  "siteInfo": {
-    "name": "The_Birds_Vet Trust of India",
-    "tagline": "Feeding | Conservation | Nurture",
-    "established": "2020",
-    "logo": "/photos/logo.jpg"
-  },
-  "navigation": [
-    { "label": "Home", "href": "#home" },
-    { "label": "About", "href": "#about" },
-    { "label": "Our Journey", "href": "#timeline" },
-    { "label": "Services", "href": "#services" },
-    { "label": "Impact", "href": "#impact" },
-    { "label": "Gallery", "href": "#gallery" },
-    { "label": "Feeding Stations", "href": "/feeding-stations" },
-    { "label": "Team", "href": "/team" },
-    { "label": "Contact", "href": "#contact" }
-  ],
-  "hero": {
-    "badge": "Registered Trust",
-    "title": ["Every Wing", "Deserves to Fly"],
-    "highlight": "Fly",
-    "subtitle": "We are trying to save that morning that begins with the gentle chirping of birds. These sounds are not just the voices of birds, these are a prayer for survival. Saving them is, in essence, saving humanity.",
-    "primaryCta": { "text": "A small donation for Bird wings", "href": "#donate" },
-    "secondaryCta": { "text": "Be a part of this journey", "href": "#contact" },
-    "stats": [
-      { "number": "500+", "label": "Birds Rescued" },
-      { "number": "50+", "label": "Feeding Stations" },
-      { "number": "10+", "label": "Volunteers" }
+    "siteInfo": {
+        "name": "The_Birds_Vet Trust of India",
+        "tagline": "Feeding | Conservation | Nurture",
+        "established": "2020",
+        "logo": "/photos/logo.jpg"
+    },
+    "navigation": [
+        { "label": "Home", "href": "#home" },
+        { "label": "About", "href": "#about" },
+        { "label": "Our Journey", "href": "#timeline" },
+        { "label": "Services", "href": "#services" },
+        { "label": "Impact", "href": "#impact" },
+        { "label": "Gallery", "href": "#gallery" },
+        { "label": "Feeding Stations", "href": "/feeding-stations" },
+        { "label": "Team", "href": "/team" },
+        { "label": "Contact", "href": "#contact" }
     ],
-    "video": "/videos/VID-20241214-WA0002.mp4"
-  },
-  "about": {
-    "subtitle": "Who We Are",
-    "title": "The_Birds_Vet Trust of India",
-    "description": [
-      "Our team works tirelessly to provide food, rescue injured birds, offer medical treatment, rehabilitate them, and safely release them back into their natural habitat.",
-      "We also run awareness programs and operate bird-feeding stations across the region, creating a safer and more compassionate environment for birdlife."
-    ],
-    "mission": "Our mission is to ensure the well-being and protection of avian species, fostering a harmonious coexistence between Humans and Birds. To protect and promote the welfare of Birds through compassionate care.",
-    "badges": [
-      "Licensed Veterinary Care",
-      "24/7 Emergency Response",
-      "Habitat Conservation"
-    ],
-    "images": [
-      "/photos/feeding-station-8.jpeg",
-      "/photos/Picsart_24-11-09_12-24-52-790.jpg",
-      "/photos/Picsart_24-10-13_09-52-41-550.jpg"
-    ]
-  },
-  "timeline": {
-    "subtitle": "Our Journey",
-    "title": "Milestones of Hope",
-    "description": "From a small group of passionate bird lovers to a movement touching hundreds of lives — here's our story of growth and impact.",
-    "milestones": [
-      {
-        "year": "2020",
-        "title": "The Beginning",
-        "description": "The_Birds_Vet Trust of India was founded when a group of passionate bird lovers came together to rescue an injured Himalayan Bulbul. That one act of kindness gave birth to a mission to protect all the birds.",
-        "stat": { "number": "5", "label": "Founding Members" },
-        "image": "/photos/Picsart_25-05-05_05-21-47-252.jpg",
-        "portrait": false
-      },
-      {
-        "year": "2022",
-        "title": "Nest of Grass",
-        "description": "We making nests with straws of grass, where birds fearlessly accept their homes, cherishing dreams and finding peace. Their chirping tells us that this world has become livable again.",
-        "stat": { "number": "100+", "label": "Birds Treated" },
-        "image": "/photos/Picsart_24-10-13_09-52-41-550.jpg",
-        "portrait": false
-      },
-      {
-        "year": "2024",
-        "title": "Community Outreach",
-        "description": "We are taking a small initiative to provide food and water for all flying birds. Bird feeding stations are being set up in parks, open grounds, schools, and community spaces. Through awareness programs in schools and colleges, we are connecting the new generation with nature. This is not just about feeding birds, it is our responsibility toward all flying life.",
-        "stat": { "number": "50+", "label": "Feeding Stations" },
-        "image": "/photos/WhatsApp-Image-2026-01-28-at-11.58.11-AM.jpeg",
-        "portrait": true
-      },
-      {
-        "year": "2025",
-        "title": "Growing Impact",
-        "description": "Expanded our reach with more volunteers, more rescues, and a stronger community. Our dedication continues to grow as we help more birds every day.",
-        "stat": { "number": "500+", "label": "Total Birds Rescued" },
-        "image": "/photos/WhatsApp-Image-2026-01-28-at-12.19.01-PM.jpeg",
-        "portrait": false
-      },
-      {
-        "year": "2026",
-        "title": "Feeding Stations",
-        "description": "We establish and maintain bird feeding stations across open areas to ensure a reliable supply of food and water for flying birds.",
-        "stat": { "number": "5+", "label": "Total Feeding Stations" },
-        "image": "/photos/feeding.jpeg",
-        "portrait": true
-      }
-    ]
-  },
-  "services": {
-    "subtitle": "What We Do",
-    "title": "Our Services",
-    "description": "From emergency rescues to long-term rehabilitation, we provide comprehensive care for birds in need.",
-    "items": [
-      {
-        "title": "Bird Rescue",
-        "description": "24/7 emergency response team ready to rescue injured, sick, or stranded birds from anywhere in the region.",
-        "image": "/photos/Picsart_24-11-10_00-52-39-957.jpg",
-        "icon": "rescue",
-        "portrait": true
-      },
-      {
-        "title": "Veterinary Care",
-        "description": "Professional medical treatment including surgeries, medications, and specialized care for all avian species.",
-        "image": "/photos/Picsart_24-11-09_23-42-18-998.jpg",
-        "icon": "medical",
-        "portrait": true
-      },
-      {
-        "title": "Rehabilitation",
-        "description": "Safe recovery spaces where birds can heal and regain their strength before being released back into the wild.",
-        "image": "/photos/Picsart_24-11-10_01-07-46-120.jpg",
-        "icon": "rehab",
-        "portrait": true
-      },
-      {
-        "title": "Feeding Stations",
-        "description": "We establish and maintain bird feeding stations across urban areas to provide food and water for wild birds.",
-        "image": "/photos/Picsart_24-11-10_01-10-06-482.jpg",
-        "icon": "feeding",
-        "portrait": false
-      }
-    ]
-  },
-  "impact": {
-    "subtitle": "Our Impact",
-    "title": "Making a Difference",
-    "description": "Every rescue, every treatment, every release — together we're creating a better world for birds.",
-    "stats": [
-      { "number": "500+", "label": "Birds Rescued", "icon": "bird" },
-      { "number": "50+", "label": "Feeding Stations", "icon": "station" },
-      { "number": "100+", "label": "Active Volunteers", "icon": "volunteer" },
-      { "number": "20+", "label": "Species Protected", "icon": "species" }
-    ],
-    "testimonials": [
-      {
-        "quote": "The_Birds_Vet saved a pigeon that was injured near my home. Their quick response and care was amazing!",
-        "author": "Rahul S.",
-        "location": "Bareilly"
-      },
-      {
-        "quote": "Wonderful team doing incredible work for our feathered friends. Proud to volunteer with them.",
-        "author": "Swati V.",
-        "location": "Volunteer"
-      }
-    ]
-  },
-  "getInvolved": {
-    "subtitle": "Join Us",
-    "title": "Get Involved",
-    "description": "There are many ways you can help us protect and care for birds. Every contribution makes a difference.",
-    "options": [
-      {
-        "title": "Volunteer",
-        "description": "Join our team of dedicated volunteers. Help with rescues, feeding stations, or awareness programs.",
-        "cta": "Join Now",
-        "icon": "volunteer"
-      },
-      {
-        "title": "Donate",
-        "description": "Your donations help us provide medical care, food, and shelter for birds in need.",
-        "cta": "Donate",
-        "icon": "donate"
-      },
-      {
-        "title": "Report a Bird",
-        "description": "Found an injured or stranded bird? Report it to us and we'll send help immediately.",
-        "cta": "Report",
-        "icon": "report"
-      },
-      {
-        "title": "Spread Awareness",
-        "description": "Share our mission with friends and family. Follow us on social media and help spread the word.",
-        "cta": "Share",
-        "icon": "share"
-      }
-    ]
-  },
-  "gallery": {
-    "subtitle": "Our Work",
-    "title": "Gallery",
-    "description": "A glimpse into our rescue operations, rehabilitation center, and the beautiful birds we've helped.",
-    "photos": [
-      "/photos/Picsart_22-11-05_08-18-18-148.jpg",
-      "/photos/Picsart_22-11-09_19-43-47-466.jpg",
-      "/photos/Picsart_24-10-13_09-52-41-550.jpg",
-      "/photos/Picsart_24-10-31_15-46-46-807.jpg",
-      "/photos/Picsart_24-11-01_10-00-18-735.jpg",
-      "/photos/Picsart_24-11-09_12-24-52-790.jpg",
-      "/photos/Picsart_24-11-09_23-42-18-998.jpg",
-      "/photos/Picsart_24-11-10_00-52-39-957.jpg",
-      "/photos/Picsart_24-11-10_00-56-35-007.jpg",
-      "/photos/Picsart_24-11-10_01-02-38-104.jpg",
-      "/photos/Picsart_24-11-10_01-07-46-120.jpg",
-      "/photos/Picsart_24-11-10_01-10-06-482.jpg",
-      "/photos/Picsart_24-11-10_01-11-35-904.jpg",
-      "/photos/Picsart_24-11-10_01-32-35-855.jpg",
-      "/photos/Picsart_24-11-10_01-35-31-367.jpg",
-      "/photos/Picsart_24-11-10_01-39-14-956.jpg",
-      "/photos/Picsart_24-11-10_10-05-23-542.jpg",
-      "/photos/Picsart_24-11-10_10-33-34-269.jpg",
-      "/photos/Picsart_24-11-10_10-41-25-630.jpg",
-      "/photos/Picsart_24-11-10_10-44-28-554.jpg",
-      "/photos/Picsart_24-11-13_12-52-01-903.jpg",
-      "/photos/Picsart_24-11-13_19-11-48-075.jpg",
-      "/photos/Picsart_24-11-22_10-27-06-238.jpg",
-      "/photos/Picsart_24-11-22_11-13-23-249.jpg",
-      "/photos/Picsart_24-11-22_18-45-59-289.jpg",
-      "/photos/Picsart_24-11-22_19-13-38-956.jpg",
-      "/photos/Picsart_24-12-17_09-35-19-371.jpg",
-      "/photos/Picsart_24-12-23_20-37-19-190.jpg",
-      "/photos/Picsart_25-01-09_22-11-11-676.jpg",
-      "/photos/Picsart_25-01-18_16-21-10-492.jpg",
-      "/photos/Picsart_25-01-18_18-20-58-995.jpg",
-      "/photos/Picsart_25-02-25_16-57-48-335.jpg",
-      "/photos/Picsart_25-03-06_21-02-27-550.jpg",
-      "/photos/Picsart_25-03-07_15-33-34-525.jpg",
-      "/photos/Picsart_25-04-13_08-54-06-641.jpg",
-      "/photos/Picsart_25-05-04_12-37-53-352.jpg",
-      "/photos/Picsart_25-05-05_05-21-47-252.jpg",
-      "/photos/Picsart_25-05-06_04-50-24-427.jpg",
-      "/photos/Picsart_25-05-06_19-26-54-860.jpg",
-      "/photos/Picsart_25-08-21_21-07-40-856.png",
-      "/photos/Picsart_25-11-07_12-06-16-470.jpg",
-      "/photos/Picsart_25-11-18_09-58-29-909.png",
-      "/photos/Picsart_25-12-04_18-24-10-259.jpg",
-      "/photos/Picsart_26-01-03_08-06-52-167.png",
-      "/photos/Picsart_26-01-08_16-15-55-947.png",
-      "/photos/Picsart_26-01-08_16-27-02-106.jpg"
-    ],
-    "videos": [
-      { "src": "/videos/VID-20250324-WA0000.mp4", "caption": "Release into Wild" },
-      { "src": "/videos/VID-20241214-WA0002.mp4", "caption": "Rescue Operations" },
-      { "src": "/videos/VID-20250218-WA0024.mp4", "caption": "Bird Care" }
-    ]
-  },
-  "knowledge": {
-    "subtitle": "Learn",
-    "title": "Knowledge Hub",
-    "description": "Tips and guides to help you care for birds and understand our avian friends better.",
-    "tips": [
-      {
+    "hero": {
+        "badge": "Registered Trust",
+        "title": ["Every Wing", "Deserves to Fly"],
+        "highlight": "Fly",
+        "subtitle": "We are trying to save that morning that begins with the gentle chirping of birds. These sounds are not just the voices of birds, these are a prayer for survival. Saving them is, in essence, saving humanity.",
+        "primaryCta": {
+            "text": "A small donation for Bird wings",
+            "href": "#donate"
+        },
+        "secondaryCta": {
+            "text": "Be a part of this journey",
+            "href": "#contact"
+        },
+        "stats": [
+            { "number": "513+", "label": "Birds Rescued" },
+            { "number": "14+", "label": "Feeding Stations" },
+            { "number": "17+", "label": "Volunteers" }
+        ],
+        "video": "/videos/VID-20241214-WA0002.mp4"
+    },
+    "about": {
+        "subtitle": "Who We Are",
+        "title": "The_Birds_Vet Trust of India",
+        "description": [
+            "Our team works tirelessly to provide food, rescue injured birds, offer medical treatment, rehabilitate them, and safely release them back into their natural habitat.",
+            "We also run awareness programs and operate bird-feeding stations across the region, creating a safer and more compassionate environment for birdlife."
+        ],
+        "mission": "Our mission is to ensure the well-being and protection of avian species, fostering a harmonious coexistence between Humans and Birds. To protect and promote the welfare of Birds through compassionate care.",
+        "badges": [
+            "Licensed Veterinary Care",
+            "24/7 Emergency Response",
+            "Habitat Conservation"
+        ],
+        "images": [
+            "/photos/feeding-station-8.jpeg",
+            "/photos/Picsart_24-11-09_12-24-52-790.jpg",
+            "/photos/Picsart_24-10-13_09-52-41-550.jpg"
+        ]
+    },
+    "timeline": {
+        "subtitle": "Our Journey",
+        "title": "Milestones of Hope",
+        "description": "From a small group of passionate bird lovers to a movement touching hundreds of lives — here's our story of growth and impact.",
+        "milestones": [
+            {
+                "year": "2020",
+                "title": "The Beginning",
+                "description": "The_Birds_Vet Trust of India was founded when a group of passionate bird lovers came together to rescue an injured Himalayan Bulbul. That one act of kindness gave birth to a mission to protect all the birds.",
+                "stat": { "number": "4", "label": "Founding Members" },
+                "image": "/photos/Picsart_25-05-05_05-21-47-252.jpeg",
+                "portrait": false
+            },
+            {
+                "year": "2022",
+                "title": "Nest of Grass",
+                "description": "We making nests with straws of grass, where birds fearlessly accept their homes, cherishing dreams and finding peace. Their chirping tells us that this world has become livable again.",
+                "stat": { "number": "100+", "label": "Birds Treated" },
+                "image": "/photos/Picsart_24-10-13_09-52-41-550.jpg",
+                "portrait": false
+            },
+            {
+                "year": "2024",
+                "title": "Community Outreach",
+                "description": "We are taking a small initiative to provide food and water for all flying birds. Bird feeding stations are being set up in parks, open grounds, schools, and community spaces. Through awareness programs in schools and colleges, we are connecting the new generation with nature. This is not just about feeding birds, it is our responsibility toward all flying life.",
+                "stat": { "number": "14+", "label": "Feeding Stations" },
+                "image": "/photos/WhatsApp-Image-2026-01-28-at-11.58.11-AM.jpeg",
+                "portrait": true
+            },
+            {
+                "year": "2025",
+                "title": "Growing Impact",
+                "description": "Expanded our reach with more volunteers, more rescues, and a stronger community. Our dedication continues to grow as we help more birds every day.",
+                "stat": { "number": "513+", "label": "Total Birds Rescued" },
+                "image": "/photos/WhatsApp-Image-2026-01-28-at-12.19.01-PM.jpeg",
+                "portrait": false
+            },
+            {
+                "year": "2026",
+                "title": "Feeding Stations",
+                "description": "We establish and maintain bird feeding stations across open areas to ensure a reliable supply of food and water for flying birds.",
+                "stat": { "number": "14+", "label": "Total Feeding Stations" },
+                "image": "/photos/feeding.jpeg",
+                "portrait": true
+            }
+        ]
+    },
+    "services": {
+        "subtitle": "What We Do",
+        "title": "Our Services",
+        "description": "From emergency rescues to long-term rehabilitation, we provide comprehensive care for birds in need.",
+        "items": [
+            {
+                "title": "Bird Rescue",
+                "description": "24/7 emergency response team ready to rescue injured, sick, or stranded birds from anywhere in the region.",
+                "image": "/photos/Picsart_24-11-10_00-52-39-957.jpg",
+                "icon": "rescue",
+                "portrait": true
+            },
+            {
+                "title": "Veterinary Care",
+                "description": "Professional medical treatment including surgeries, medications, and specialized care for all avian species.",
+                "image": "/photos/Picsart_24-11-09_23-42-18-998.jpg",
+                "icon": "medical",
+                "portrait": true
+            },
+            {
+                "title": "Rehabilitation",
+                "description": "Safe recovery spaces where birds can heal and regain their strength before being released back into the wild.",
+                "image": "/photos/Picsart_24-11-10_01-07-46-120.jpg",
+                "icon": "rehab",
+                "portrait": true
+            },
+            {
+                "title": "Feeding Stations",
+                "description": "We establish and maintain bird feeding stations across urban areas to provide food and water for wild birds.",
+                "image": "/photos/Picsart_24-11-10_01-10-06-482.jpg",
+                "icon": "feeding",
+                "portrait": false
+            }
+        ]
+    },
+    "impact": {
+        "subtitle": "Our Impact",
+        "title": "Making a Difference",
+        "description": "Every rescue, every treatment, every release — together we're creating a better world for birds.",
+        "stats": [
+            { "number": "513+", "label": "Birds Rescued", "icon": "bird" },
+            { "number": "14+", "label": "Feeding Stations", "icon": "station" },
+            {
+                "number": "14+",
+                "label": "Active Volunteers",
+                "icon": "volunteer"
+            },
+            { "number": "20+", "label": "Species Protected", "icon": "species" }
+        ],
+        "testimonials": [
+            {
+                "quote": "The_Birds_Vet saved a pigeon that was injured near my home. Their quick response and care was amazing!",
+                "author": "Rahul S.",
+                "location": "Bareilly"
+            },
+            {
+                "quote": "Wonderful team doing incredible work for our feathered friends. Proud to volunteer with them.",
+                "author": "Swati V.",
+                "location": "Volunteer"
+            }
+        ]
+    },
+    "getInvolved": {
+        "subtitle": "Join Us",
+        "title": "Get Involved",
+        "description": "There are many ways you can help us protect and care for birds. Every contribution makes a difference.",
+        "options": [
+            {
+                "title": "Volunteer",
+                "description": "Join our team of dedicated volunteers. Help with rescues, feeding stations, or awareness programs.",
+                "cta": "Join Now",
+                "icon": "volunteer"
+            },
+            {
+                "title": "Donate",
+                "description": "Your donations help us provide medical care, food, and shelter for birds in need.",
+                "cta": "Donate",
+                "icon": "donate"
+            },
+            {
+                "title": "Report a Bird",
+                "description": "Found an injured or stranded bird? Report it to us and we'll send help immediately.",
+                "cta": "Report",
+                "icon": "report"
+            },
+            {
+                "title": "Spread Awareness",
+                "description": "Share our mission with friends and family. Follow us on social media and help spread the word.",
+                "cta": "Share",
+                "icon": "share"
+            }
+        ]
+    },
+    "gallery": {
+        "subtitle": "Our Work",
+        "title": "Gallery",
+        "description": "A glimpse into our rescue operations, rehabilitation center, and the beautiful birds we've helped.",
+        "photos": [
+            "/photos/Picsart_22-11-05_08-18-18-148.jpg",
+            "/photos/Picsart_22-11-09_19-43-47-466.jpg",
+            "/photos/Picsart_24-10-13_09-52-41-550.jpg",
+            "/photos/Picsart_24-10-31_15-46-46-807.jpg",
+            "/photos/Picsart_24-11-01_10-00-18-735.jpg",
+            "/photos/Picsart_24-11-09_12-24-52-790.jpg",
+            "/photos/Picsart_24-11-09_23-42-18-998.jpg",
+            "/photos/Picsart_24-11-10_00-52-39-957.jpg",
+            "/photos/Picsart_24-11-10_00-56-35-007.jpg",
+            "/photos/Picsart_24-11-10_01-02-38-104.jpg",
+            "/photos/Picsart_24-11-10_01-07-46-120.jpg",
+            "/photos/Picsart_24-11-10_01-10-06-482.jpg",
+            "/photos/Picsart_24-11-10_01-11-35-904.jpg",
+            "/photos/Picsart_24-11-10_01-32-35-855.jpg",
+            "/photos/Picsart_24-11-10_01-35-31-367.jpg",
+            "/photos/Picsart_24-11-10_01-39-14-956.jpg",
+            "/photos/Picsart_24-11-10_10-05-23-542.jpg",
+            "/photos/Picsart_24-11-10_10-33-34-269.jpg",
+            "/photos/Picsart_24-11-10_10-41-25-630.jpg",
+            "/photos/Picsart_24-11-10_10-44-28-554.jpg",
+            "/photos/Picsart_24-11-13_12-52-01-903.jpg",
+            "/photos/Picsart_24-11-13_19-11-48-075.jpg",
+            "/photos/Picsart_24-11-22_10-27-06-238.jpg",
+            "/photos/Picsart_24-11-22_11-13-23-249.jpg",
+            "/photos/Picsart_24-11-22_18-45-59-289.jpg",
+            "/photos/Picsart_24-11-22_19-13-38-956.jpg",
+            "/photos/Picsart_24-12-17_09-35-19-371.jpg",
+            "/photos/Picsart_24-12-23_20-37-19-190.jpg",
+            "/photos/Picsart_25-01-09_22-11-11-676.jpg",
+            "/photos/Picsart_25-01-18_16-21-10-492.jpg",
+            "/photos/Picsart_25-01-18_18-20-58-995.jpg",
+            "/photos/Picsart_25-02-25_16-57-48-335.jpg",
+            "/photos/Picsart_25-03-06_21-02-27-550.jpg",
+            "/photos/Picsart_25-03-07_15-33-34-525.jpg",
+            "/photos/Picsart_25-04-13_08-54-06-641.jpg",
+            "/photos/Picsart_25-05-04_12-37-53-352.jpg",
+            "/photos/Picsart_25-05-05_05-21-47-252.jpg",
+            "/photos/Picsart_25-05-06_04-50-24-427.jpg",
+            "/photos/Picsart_25-05-06_19-26-54-860.jpg",
+            "/photos/Picsart_25-08-21_21-07-40-856.png",
+            "/photos/Picsart_25-11-07_12-06-16-470.jpg",
+            "/photos/Picsart_25-11-18_09-58-29-909.png",
+            "/photos/Picsart_25-12-04_18-24-10-259.jpg",
+            "/photos/Picsart_26-01-03_08-06-52-167.png",
+            "/photos/Picsart_26-01-08_16-15-55-947.png",
+            "/photos/Picsart_26-01-08_16-27-02-106.jpg"
+        ],
+        "videos": [
+            {
+                "src": "/videos/VID-20250324-WA0000.mp4",
+                "caption": "Release into Wild"
+            },
+            {
+                "src": "/videos/VID-20241214-WA0002.mp4",
+                "caption": "Rescue Operations"
+            },
+            { "src": "/videos/VID-20250218-WA0024.mp4", "caption": "Bird Care" },
+            { "src": "/videos/n1.mp4", "caption": "Bird Welfare" },
+            { "src": "/videos/n2.mp4", "caption": "Bird Conservation" }
+        ]
+    },
+    "knowledge": {
+        "subtitle": "Learn",
+        "title": "Knowledge Hub",
+        "description": "Tips and guides to help you care for birds and understand our avian friends better.",
+        "tips": [
+            {
+                "title": "Found an Injured Bird?",
+                "content": "Keep the bird in a dark, quiet, warm place. Don't try to feed or give water. Contact us immediately for professional help.",
+                "icon": "firstaid"
+            },
+            {
+                "title": "Bird-Friendly Garden",
+                "content": "Plant native trees and shrubs, provide fresh water, avoid pesticides, and create shelter areas for birds to nest.",
+                "icon": "garden"
+            },
+            {
+                "title": "Window Collisions",
+                "content": "Birds can't see glass. Use window decals, curtains, or external screens to prevent fatal collisions.",
+                "icon": "window"
+            },
+            {
+                "title": "Feeding Wild Birds",
+                "content": "Use proper bird feeders, provide fresh water, clean feeders regularly, and offer appropriate seeds for local species.",
+                "icon": "feeding"
+            }
+        ]
+    },
+    "emergency": {
         "title": "Found an Injured Bird?",
-        "content": "Keep the bird in a dark, quiet, warm place. Don't try to feed or give water. Contact us immediately for professional help.",
-        "icon": "firstaid"
-      },
-      {
-        "title": "Bird-Friendly Garden",
-        "content": "Plant native trees and shrubs, provide fresh water, avoid pesticides, and create shelter areas for birds to nest.",
-        "icon": "garden"
-      },
-      {
-        "title": "Window Collisions",
-        "content": "Birds can't see glass. Use window decals, curtains, or external screens to prevent fatal collisions.",
-        "icon": "window"
-      },
-      {
-        "title": "Feeding Wild Birds",
-        "content": "Use proper bird feeders, provide fresh water, clean feeders regularly, and offer appropriate seeds for local species.",
-        "icon": "feeding"
-      }
-    ]
-  },
-  "emergency": {
-    "title": "Found an Injured Bird?",
-    "description": "Don't wait! Call our 24/7 helpline immediately for rescue assistance.",
-    "phone": ["+91 9450601398", "+91 81975 24137"],
-    "whatsapp": ["+91 9450601398", "+91 81975 24137"]
-  },
-  "team": {
-    "founder": {
-      "name": "Dr. Beerendra Kumar Verma",
-      "role": "Founder & President",
-      "image": "/photos/dr-beerendra-kumar-verma.png",
-      "bio": "The visionary behind The_Birds_Vet Trust of India. His deep love for birds and unwavering commitment to their welfare laid the foundation of this mission."
+        "description": "Don't wait! Call our 24/7 helpline immediately for rescue assistance.",
+        "phone": ["+91 9451920387"],
+        "whatsapp": ["+91 9451920387"]
     },
-    "foundingMembers": [
-      {
-        "name": "Dr. Vijay Kumar",
-        "role": "Co-founder / Director",
-        "image": "/photos/dr-vijay-kumar.jpeg",
-        "bio": "Guides the strategic direction of the trust and oversees conservation initiatives."
-      },
-      {
-        "name": "Rohit Kumar",
-        "role": "Co-founder / Treasurer",
-        "image": "/photos/rohit-kumar.jpg",
-        "bio": "Manages the financial operations of the trust, ensuring transparency and responsible use of resources."
-      },
-      {
-        "name": "Swati Verma",
-        "role": "Co-founder / Vice President/ Trustee",
-        "image": "/photos/swati-verma.jpg",
-        "bio": "A founding pillar of the trust, dedicated to building a compassionate community for bird welfare."
-      }
-    ],
-    "teamMembers": [
-      {
-        "name": "Dr. Anoop Kumar Shastri",
-        "role": "Deputy Director",
-        "image": "/photos/anoop.jpeg",
-        "bio": "Supports organizational leadership and ensures smooth execution of rescue and rehabilitation programs."
-      },
-      {
-        "name": "Abhishek Verma",
-        "role": "Technology Head",
-        "image": "/photos/abhishek-verma.jpeg",
-        "bio": "Leads the trust's digital presence and technology initiatives, including website development, while managing administrative operations."
-      },
-      {
-        "name": "Mr. Abhilash Verma",
-        "role": "Bird Care Coordinator",
-        "image": "/photos/abhilash.jpeg",
-        "bio": "Coordinates daily bird care operations including feeding, rehabilitation, and release activities."
-      }
-    ]
-  },
-  "feedingStations": {
-    "title": "Feeding Stations",
-    "subtitle": "Nourishing Wings Across India",
-    "description": "We establish and maintain bird feeding stations across the country, ensuring a reliable supply of food and water for birds in need.",
-    "stations": [
-      {
-        "name": "Feeding Station - Rikhtal",
-        "caretaker": "Kaushalya Devi w/o Ramesh Chandra",
-        "location": "Rikhtal, Jakhpant, Pithoragarh, Uttarakhand",
-        "lat": 29.584421,
-        "lng": 80.29009,
-        "image": "/photos/feeding-station-1.jpeg",
-        "portrait": true,
-        "description": "A dedicated feeding station managed by Kaushalya Devi, providing daily food and water for local bird species in the Jakhpant area."
-      },
-      {
-        "name": "Feeding Station - Bilai",
-        "caretaker": "Narayan Ram s/o Bishan Ram",
-        "location": "Marh, Bilai, Pithoragarh, Uttarakhand",
-        "lat": 29.5300,
-        "lng": 80.1800,
-        "image": "/photos/feeding-station-bilai.jpeg",
-        "portrait": true,
-        "description": "Located in the serene village of Bilai, this station is maintained by Narayan Ram to support the diverse birdlife of the region."
-      },
-      {
-        "name": "Feeding Station - Chandak",
-        "caretaker": "Prema Khampa w/o Prem Singh Khampa",
-        "location": "Chandak, Chandak R.F., Pithoragarh, Uttarakhand",
-        "lat": 29.5985,
-        "lng": 80.1851,
-        "image": "/photos/feeding-station-3.jpeg",
-        "portrait": false,
-        "description": "Nestled near the Chandak Reserve Forest, this feeding station serves as a vital resource for birds in the protected area, managed by Prema Khampa."
-      },
-      {
-        "name": "Feeding Station - Saurlekh",
-        "caretaker": "Suresh Ram s/o Dev Ram",
-        "location": "Saurlekh, Garhgaon, Pithoragarh, Uttarakhand",
-        "lat": 29.609187,
-        "lng": 80.276771,
-        "image": "/photos/feeding-station-4.jpeg",
-        "portrait": false,
-        "description": "Maintained by Suresh Ram in the Garhgaon area, this feeding station provides essential nourishment for birds in the Saurlekh region."
-      },
-      {
-        "name": "Feeding Station - Buddha Temple",
-        "caretaker": "",
-        "location": "Buddha Temple, Pithoragarh, Uttarakhand",
-        "lat": 29.574479,
-        "lng": 80.1903475,
-        "image": "/photos/feeding-station-5.jpeg",
-        "portrait": false,
-        "description": "A peaceful feeding station located near the Buddha Temple in Pithoragarh, providing food and water for birds visiting the sacred grounds."
-      },
-      {
-        "name": "Feeding Station - Sirkuch",
-        "caretaker": "Dinesh Chandra s/o Dhani Chand Sirkuch",
-        "location": "Sirkuch, Pithoragarh, Uttarakhand",
-        "lat": 29.58463,
-        "lng": 80.317138,
-        "image": "/photos/feeding-station-6.jpeg",
-        "portrait": true,
-        "description": "Managed by Dinesh Chandra in the village of Sirkuch, this station ensures a steady supply of food for the local bird population."
-      },
-      {
-        "name": "Feeding Station - Lumati",
-        "caretaker": "Dheeraj Singh s/o Laxman Singh Lumati",
-        "location": "Lumati, Pithoragarh, Uttarakhand",
-        "lat": 29.8837072,
-        "lng": 80.3213732,
-        "image": "/photos/feeding-station-7.jpeg",
-        "portrait": false,
-        "description": "Situated in Lumati village, this feeding station is maintained by Dheeraj Singh to support the birdlife in the area."
-      },
-      {
-        "name": "Feeding Station - BSF Academy Tekanpur",
-        "caretaker": "Dr. Raj Mahal (Commandant) & Dr. Anurag Arya (Deputy Commandant)",
-        "location": "NTCD, BSF Academy, Tekanpur, Gwalior, Madhya Pradesh",
-        "lat": 26.0168035,
-        "lng": 78.26812,
-        "image": "/photos/feeding-station-8.jpeg",
-        "portrait": true,
-        "description": "A special feeding station established at the BSF Academy in Tekanpur, Gwalior, managed by Dr. Raj Mahal and Dr. Anurag Arya, extending bird welfare beyond Uttarakhand."
-      },
-      {
-        "name": "Feeding Station - Lucknow",
-        "caretaker": "Geeta Rani w/o Mata Prasad",
-        "location": "Friends Colony, Lucknow, Uttar Pradesh",
-        "lat": 26.790817,
-        "lng": 80.99263,
-        "image": "/photos/feeding-station-9.jpeg",
-        "portrait": false,
-        "description": "Located in Friends Colony, Lucknow, this station is lovingly maintained by Geeta Rani, bringing bird care to the heart of Uttar Pradesh."
-      },
-      {
-        "name": "Feeding Station - Rangtoli",
-        "caretaker": "Mayank Singh s/o Sandeep Singh",
-        "location": "Rangtoli, Lasiyari, Chamoli, Uttarakhand",
-        "lat": 30.404347,
-        "lng": 79.348732,
-        "image": "/photos/feeding-station-10.jpeg",
-        "portrait": true,
-        "description": "Nestled in the scenic Chamoli district, this feeding station is managed by Mayank Singh, supporting birds in the high-altitude region."
-      },
-      {
-        "name": "Feeding Station - Bansmahtoli",
-        "caretaker": "Govind Singh s/o Kishan Singh",
-        "location": "Bansmahtoli, Pabhen, Pithoragarh, Uttarakhand",
-        "lat": 29.5844932,
-        "lng": 80.2142005,
-        "image": "/photos/feeding-station-11.jpeg",
-        "portrait": true,
-        "description": "Managed by Govind Singh in Bansmahtoli village, this station provides vital nourishment for birds in the Pabhen area."
-      }
-    ]
-  },
-  "contact": {
-    "phone": ["+91 9450601398", "+91 81975 24137"],
-    "whatsapp": ["+91 9450601398", "+91 81975 24137"],
-    "email": "contact@thebirdsvet.org",
-    "address": "Lucknow, Uttar Pradesh, India",
-    "social": {
-      "facebook": "https://www.facebook.com/share/1DPDKbKA5F/",
-      "instagram": "https://www.instagram.com/the_birds_vet/",
-      "youtube": "https://youtube.com/@thebirdsvet",
-      "twitter": "https://twitter.com/thebirdsvet"
+    "team": {
+        "founder": {
+            "name": "Dr. Beerendra Kumar Verma",
+            "role": "Founder & President",
+            "image": "/photos/dr-beerendra-kumar-verma.png",
+            "bio": "The visionary behind The_Birds_Vet Trust of India. A passionate advocate for avian health and welfare, he is dedicated to improving the lives of birds through compassionate care, awareness, and scientific guidance. His vision and commitment have been instrumental in building a platform that promotes responsible bird care and conservation across India."
+        },
+        "foundingMembers": [
+            {
+                "name": "Dr. Vijay Kumar",
+                "role": "Co-founder / Director",
+                "image": "/photos/dr-vijay-kumar.jpeg",
+                "bio": "He is a dedicated professional committed to advancing knowledge and service in his field. With a strong sense of responsibility and a passion for making a meaningful impact, he consistently works toward improving lives through his expertise and thoughtful approach."
+            },
+            {
+                "name": "Rohit Kumar",
+                "role": "Co-founder / Treasurer",
+                "image": "/photos/rohit-kumar.jpg",
+                "bio": "He is a passionate and dedicated individual who believes in creating a positive impact through his work and values. With a strong sense of responsibility and a forward thinking mindset, he consistently strives to grow, learn, and contribute meaningfully to the people and environment around him."
+            },
+            {
+                "name": "Swati Verma",
+                "role": "Co-founder / Vice President/ Trustee",
+                "image": "/photos/swati-verma.jpg",
+                "bio": "She is a Co-founder, Vice President, and Trustee whose dedication and compassion form the heart of the organization. As a founding pillar, she has played a vital role in shaping the vision of The_Birds_Vet Trust of India, working tirelessly to build a caring and supportive community for bird welfare. With a nurturing spirit and a deep sense of responsibility, she believes in creating awareness, spreading kindness, and ensuring that every bird receives the care and respect it deserves."
+            }
+        ],
+        "advisoryBoard": [
+            {
+                "name": "Dr. Sushant Srivastava",
+                "role": "Senior Avian Reproductive & Breeding Consultant",
+                "designation": "Professor and Head, Department of Veterinary Gynaecology and Obstetrics, CVSc&AH, ANDUAT, Kumarganj, Ayodhya (UP)",
+                "image": "/photos/team/Dr-Sushant-Srivastava-Sir.jpg",
+                "bio": "A leading expert in avian reproductive health and breeding, guiding the trust's efforts in bird conservation science."
+            },
+            {
+                "name": "Dr. Rishikant",
+                "role": "Senior Avian Health & Toxicology Consultant",
+                "designation": "Assistant Professor, Department of Veterinary Pharmacology and Toxicology, CVSc&AH, ANDUAT, Kumarganj, Ayodhya (UP)",
+                "image": "/photos/team/Dr-Rishikant-Sir.jpg",
+                "bio": "Specializes in avian health and toxicology, providing critical guidance on bird treatment and environmental safety."
+            },
+            {
+                "name": "Dr. RP Diwakar",
+                "role": "Avian Microbiology Consultant",
+                "designation": "Assistant Professor (SS), Department of Veterinary Microbiology, CVSc&AH, ANDUAT, Kumarganj, Ayodhya (UP)",
+                "image": "/photos/team/Dr-RP-Diwakar-Sir.jpg",
+                "bio": "Brings expertise in avian microbiology, supporting disease prevention and health management for rescued birds."
+            },
+            {
+                "name": "Dr. Rajesh Kumar",
+                "role": "Associate Avian Reproductive & Breeding Consultant",
+                "designation": "Assistant Professor, Department of Veterinary Gynaecology and Obstetrics, CVSc&AH, ANDUAT, Kumarganj, Ayodhya (UP)",
+                "image": "/photos/team/Dr-Rajesh-Kumar-Sir.jpg",
+                "bio": "Contributes expertise in avian reproductive science, assisting in breeding and conservation programs."
+            },
+            {
+                "name": "Dr. Laxmi Prasad",
+                "role": "Aquatic Avian Conservation Consultant",
+                "designation": "Professor and Head, Department of Aquaculture, College of Fisheries Science, DUVASU, Mathura (UP)",
+                "image": "/photos/team/Dr-Laxmi-Prasad-Sir.jpg",
+                "bio": "An authority on aquatic avian conservation, guiding efforts to protect waterbirds and their habitats."
+            },
+            {
+                "name": "Dr. Brijesh Kumar",
+                "role": "Senior Avian Reproductive & Breeding Consultant",
+                "designation": "Senior Scientist, ICAR-Indian Veterinary Research Institute, Bareilly (UP) 243122",
+                "image": "/photos/team/Dr-Brijesh-Kumar.jpg",
+                "bio": "A senior scientist at ICAR-IVRI Bareilly, contributing expertise in avian reproductive science and breeding to support the trust's conservation efforts."
+            },
+            {
+                "name": "Dr. Ram Kumar Singh",
+                "role": "Associate Avian Nutrition Consultant",
+                "designation": "Assistant Professor, Department of Livestock Farm Complex Animal Nutrition, COVAS, SVPUAT, Meerut (UP) 250110",
+                "image": "/photos/team/Dr-Ram-Kumar-Singh.jpg",
+                "bio": "Specializes in avian nutrition, providing guidance on proper dietary care for rescued and rehabilitated birds."
+            }
+        ],
+        "teamMembers": [
+            {
+                "name": "Mr. Abhishek Verma",
+                "role": "Technology Head & Admin",
+                "image": "/photos/team/Mr-Abhishek-Verma.jpg",
+                "bio": "He serves as the Technology Head & Admin, ensuring smooth digital and administrative operations. He manages technical systems and supports the organization with innovative solutions. With strong leadership skills, he streamlines processes for better efficiency."
+            },
+            {
+                "name": "Dr. Anoop Kumar Shastri",
+                "role": "Deputy Director",
+                "image": "/photos/team/Dr-Anoop.jpg",
+                "bio": "He is a dedicated professional known for his commitment to public service and leadership. He serves with responsibility and integrity, contributing effectively to administrative and community development work. With a strong vision and practical approach, he ensures efficient implementation of policies and initiatives."
+            },
+            {
+                "name": "Dr. Sachin Kumar Yadav",
+                "role": "Deputy Director (Bareilly) UP",
+                "image": "/photos/team/Dr-Sachin-Kumar-Yadav.jpg",
+                "bio": "A veterinary physician and surgeon running Sachin Vets Dog & Cat Clinic in Bareilly, he brings valuable clinical expertise to the trust's bird rescue and rehabilitation efforts."
+            },
+            {
+                "name": "Vandana Verma",
+                "role": "Trustee / Bird Energy Conservation Coordinator",
+                "image": "/photos/team/Vandana-Verma.jpg",
+                "bio": "She is committed to the welfare and protection of avian life, actively contributing to initiatives that promote awareness and sustainable practices for bird conservation. Alongside her environmental work, she serves as an Assistant Teacher at an Upper Primary School, shaping young minds with care and knowledge."
+            },
+            {
+                "name": "Mr. Abhilash Verma",
+                "role": "Bird Care Coordinator",
+                "image": "/photos/abhilash.jpeg",
+                "bio": "He is a committed Bird Care Coordinator dedicated to the welfare and protection of birds. He actively manages rescue, care, and rehabilitation efforts with responsibility and compassion. His hands-on approach ensures that injured and distressed birds receive proper attention and support."
+            },
+            {
+                "name": "Shweta Verma",
+                "role": "Aquatic Avian Welfare Coordinator",
+                "image": "/photos/team/shweta.jpg",
+                "bio": "She is a dedicated and compassionate individual committed to making a positive impact. She brings enthusiasm and sincerity to her work, consistently striving for excellence. With a caring nature, she supports initiatives that contribute to community well-being."
+            },
+            {
+                "name": "Anchal Verma",
+                "role": "Avian Care Coordinator",
+                "image": "/photos/team/Anchal.jpg",
+                "bio": "She plays a vital role in managing and supporting avian rescue and care activities. With a strong sense of responsibility, she ensures proper rehabilitation of birds in need."
+            }
+        ]
+    },
+    "feedingStations": {
+        "title": "Feeding Stations",
+        "subtitle": "Nourishing Wings Across India",
+        "description": "We establish and maintain bird feeding stations across the country, ensuring a reliable supply of food and water for birds in need.",
+        "stations": [
+            {
+                "name": "Feeding Station - Rikhtal",
+                "caretaker": "Kaushalya Devi w/o Ramesh Chandra",
+                "location": "Rikhtal, Jakhpant, Pithoragarh, Uttarakhand",
+                "lat": 29.584421,
+                "lng": 80.29009,
+                "image": "/photos/feeding-station-1.jpeg",
+                "portrait": true,
+                "description": "A dedicated feeding station managed by Kaushalya Devi, providing daily food and water for local bird species in the Jakhpant area."
+            },
+            {
+                "name": "Feeding Station - Bilai",
+                "caretaker": "Narayan Ram s/o Bishan Ram",
+                "location": "Marh, Bilai, Pithoragarh, Uttarakhand",
+                "lat": 29.53,
+                "lng": 80.18,
+                "image": "/photos/feeding-station-bilai.jpeg",
+                "portrait": true,
+                "description": "Located in the serene village of Bilai, this station is maintained by Narayan Ram to support the diverse birdlife of the region."
+            },
+            {
+                "name": "Feeding Station - Chandak",
+                "caretaker": "Prema Khampa w/o Prem Singh Khampa",
+                "location": "Chandak, Chandak R.F., Pithoragarh, Uttarakhand",
+                "lat": 29.5985,
+                "lng": 80.1851,
+                "image": "/photos/feeding-station-3.jpeg",
+                "portrait": false,
+                "description": "Nestled near the Chandak Reserve Forest, this feeding station serves as a vital resource for birds in the protected area, managed by Prema Khampa."
+            },
+            {
+                "name": "Feeding Station - Saurlekh",
+                "caretaker": "Suresh Ram s/o Dev Ram",
+                "location": "Saurlekh, Garhgaon, Pithoragarh, Uttarakhand",
+                "lat": 29.609187,
+                "lng": 80.276771,
+                "image": "/photos/feeding-station-4.jpeg",
+                "portrait": false,
+                "description": "Maintained by Suresh Ram in the Garhgaon area, this feeding station provides essential nourishment for birds in the Saurlekh region."
+            },
+            {
+                "name": "Feeding Station - Buddha Temple",
+                "caretaker": "",
+                "location": "Buddha Temple, Pithoragarh, Uttarakhand",
+                "lat": 29.574479,
+                "lng": 80.1903475,
+                "image": "/photos/feeding-station-5.jpeg",
+                "portrait": false,
+                "description": "A peaceful feeding station located near the Buddha Temple in Pithoragarh, providing food and water for birds visiting the sacred grounds."
+            },
+            {
+                "name": "Feeding Station - Sirkuch",
+                "caretaker": "Dinesh Chandra s/o Dhani Chand Sirkuch",
+                "location": "Sirkuch, Pithoragarh, Uttarakhand",
+                "lat": 29.58463,
+                "lng": 80.317138,
+                "image": "/photos/feeding-station-6.jpeg",
+                "portrait": true,
+                "description": "Managed by Dinesh Chandra in the village of Sirkuch, this station ensures a steady supply of food for the local bird population."
+            },
+            {
+                "name": "Feeding Station - Lumati",
+                "caretaker": "Dheeraj Singh s/o Laxman Singh Lumati",
+                "location": "Lumati, Pithoragarh, Uttarakhand",
+                "lat": 29.8837072,
+                "lng": 80.3213732,
+                "image": "/photos/feeding-station-7.jpeg",
+                "portrait": false,
+                "description": "Situated in Lumati village, this feeding station is maintained by Dheeraj Singh to support the birdlife in the area."
+            },
+            {
+                "name": "Feeding Station - BSF Academy Tekanpur",
+                "caretaker": "Dr. Raj Mahal (Commandant) & Dr. Anurag Arya (Deputy Commandant)",
+                "location": "NTCD, BSF Academy, Tekanpur, Gwalior, Madhya Pradesh",
+                "lat": 26.0168035,
+                "lng": 78.26812,
+                "image": "/photos/feeding-station-8.jpeg",
+                "portrait": true,
+                "description": "A special feeding station established at the BSF Academy in Tekanpur, Gwalior, managed by Dr. Raj Mahal and Dr. Anurag Arya, extending bird welfare beyond Uttarakhand."
+            },
+            {
+                "name": "Feeding Station - Lucknow",
+                "caretaker": "Geeta Rani w/o Mata Prasad",
+                "location": "Friends Colony, Lucknow, Uttar Pradesh",
+                "lat": 26.790817,
+                "lng": 80.99263,
+                "image": "/photos/feeding-station-9.jpeg",
+                "portrait": false,
+                "description": "Located in Friends Colony, Lucknow, this station is lovingly maintained by Geeta Rani, bringing bird care to the heart of Uttar Pradesh."
+            },
+            {
+                "name": "Feeding Station - Rangtoli",
+                "caretaker": "Mayank Singh s/o Sandeep Singh",
+                "location": "Rangtoli, Lasiyari, Chamoli, Uttarakhand",
+                "lat": 30.404347,
+                "lng": 79.348732,
+                "image": "/photos/feeding-station-10.jpeg",
+                "portrait": true,
+                "description": "Nestled in the scenic Chamoli district, this feeding station is managed by Mayank Singh, supporting birds in the high-altitude region."
+            },
+            {
+                "name": "Feeding Station - Bansmahtoli",
+                "caretaker": "Govind Singh s/o Kishan Singh",
+                "location": "Bansmahtoli, Pabhen, Pithoragarh, Uttarakhand",
+                "lat": 29.5844932,
+                "lng": 80.2142005,
+                "image": "/photos/feeding-station-11.jpeg",
+                "portrait": true,
+                "description": "Managed by Govind Singh in Bansmahtoli village, this station provides vital nourishment for birds in the Pabhen area."
+            },
+            {
+                "name": "Feeding Station - Dunagarh",
+                "caretaker": "Bhawani Shankar Suthar s/o Ganesh Mal Suthar",
+                "location": "Oswal Panchayat, Dunagarh, Bikaner, Rajasthan",
+                "lat": 28.1024826,
+                "lng": 74.0096507,
+                "image": "/photos/oswal-panchayat.jpeg",
+                "portrait": true,
+                "description": "A feeding station at Oswal Panchayat in Dunagarh, Bikaner, managed by Bhawani Shankar Suthar, extending bird welfare to the desert region of Rajasthan."
+            },
+            {
+                "name": "Feeding Station - Sukhchainpura",
+                "caretaker": "Pradeep Verma",
+                "location": "Village Sukhchainpura, Post Gaudli, Sri Ganganagar, Rajasthan",
+                "lat": 29.13961781,
+                "lng": 73.5914378,
+                "image": "/photos/post-gaudl.jpeg",
+                "portrait": false,
+                "description": "Located in Sukhchainpura village near Sri Hanuman Ji Mandir, this feeding station is maintained by Pradeep Verma, supporting birdlife in the Ganganagar district."
+            },
+            {
+                "name": "Feeding Station - Sangaria",
+                "caretaker": "Preeti Rani w/o Kuldeep Singh",
+                "location": "Sangaria, Hanumangarh, Rajasthan",
+                "lat": 29.79634982,
+                "lng": 74.46309069,
+                "image": "/photos/preeti-rani-feeding-stand.jpeg",
+                "portrait": true,
+                "description": "A feeding station in Sangaria, Hanumangarh, lovingly maintained by Preeti Rani, providing food and water for birds in Rajasthan."
+            }
+        ]
+    },
+    "contact": {
+        "phone": ["+91 9451920387"],
+        "whatsapp": ["+91 9451920387"],
+        "email": "contact@thebirdsvet.org",
+        "address": "Lucknow, Uttar Pradesh, India",
+        "social": {
+            "facebook": "https://www.facebook.com/share/1DPDKbKA5F/",
+            "instagram": "https://www.instagram.com/the_birds_vet/",
+            "youtube": "https://youtube.com/@thebirdsvet",
+            "twitter": "https://twitter.com/thebirdsvet"
+        }
+    },
+    "footer": {
+        "description": "Dedicated to saving birds, protecting nature, and creating a world where wildlife and humans coexist in harmony.",
+        "quickLinks": [
+            { "label": "About Us", "href": "#about" },
+            { "label": "What We Do", "href": "#services" },
+            { "label": "Our Impact", "href": "#impact" },
+            { "label": "Gallery", "href": "#gallery" },
+            { "label": "Knowledge Hub", "href": "#knowledge" }
+        ],
+        "getInvolved": [
+            { "label": "Volunteer", "href": "#get-involved" },
+            { "label": "Report a Bird", "href": "#contact" },
+            { "label": "Donate", "href": "#donate" },
+            { "label": "Partner with Us", "href": "#contact" }
+        ],
+        "newsletter": {
+            "title": "Stay Connected",
+            "description": "Subscribe to our newsletter for updates on rescues, events, and ways to help."
+        },
+        "copyright": "The_Birds_Vet_Trust_of_India. All rights reserved."
     }
-  },
-  "footer": {
-    "description": "Dedicated to saving birds, protecting nature, and creating a world where wildlife and humans coexist in harmony.",
-    "quickLinks": [
-      { "label": "About Us", "href": "#about" },
-      { "label": "What We Do", "href": "#services" },
-      { "label": "Our Impact", "href": "#impact" },
-      { "label": "Gallery", "href": "#gallery" },
-      { "label": "Knowledge Hub", "href": "#knowledge" }
-    ],
-    "getInvolved": [
-      { "label": "Volunteer", "href": "#get-involved" },
-      { "label": "Report a Bird", "href": "#contact" },
-      { "label": "Donate", "href": "#donate" },
-      { "label": "Partner with Us", "href": "#contact" }
-    ],
-    "newsletter": {
-      "title": "Stay Connected",
-      "description": "Subscribe to our newsletter for updates on rescues, events, and ways to help."
-    },
-    "copyright": "The_Birds_Vet_Trust_of_India. All rights reserved."
-  }
 }

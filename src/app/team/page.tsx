@@ -4,7 +4,7 @@ import siteContent from '@/data/siteContent.json'
 
 export default function TeamPage() {
   const { team } = siteContent
-  const { founder, foundingMembers, teamMembers } = team
+  const { founder, foundingMembers, advisoryBoard, teamMembers } = team
 
   return (
     <main className="min-h-screen bg-off-white">
@@ -107,11 +107,45 @@ export default function TeamPage() {
         </div>
       </section>
 
+      {/* Technical Advisory Board */}
+      <section className="py-12 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-3xl md:text-4xl font-semibold text-text-primary mb-2">Technical Advisory Board</h2>
+            <div className="w-20 h-1 bg-leaf-green rounded-full mx-auto" />
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {advisoryBoard.map((member, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl shadow-soft overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:shadow-large border border-transparent hover:border-leaf-light"
+              >
+                <div className="aspect-square relative overflow-hidden">
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    fill
+                    className="object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+                <div className="p-6 text-center">
+                  <h3 className="font-heading text-xl font-bold text-text-primary mb-1">{member.name}</h3>
+                  <p className="text-forest-primary font-medium text-sm mb-1">{member.role}</p>
+                  <p className="text-text-muted text-xs mb-3">{member.designation}</p>
+                  <div className="w-10 h-0.5 bg-leaf-green rounded-full mx-auto mb-3" />
+                  <p className="text-text-muted text-sm leading-relaxed">{member.bio}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Team Members */}
       <section className="py-12 px-6 pb-20">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="font-heading text-3xl md:text-4xl font-semibold text-text-primary mb-2">Team Members</h2>
+            <h2 className="font-heading text-3xl md:text-4xl font-semibold text-text-primary mb-2">Board Members</h2>
             <div className="w-20 h-1 bg-leaf-green rounded-full mx-auto" />
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

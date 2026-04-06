@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
+import ContentProtection from '@/components/ContentProtection'
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -35,6 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={cormorant.variable}>
       <body className="font-body antialiased">
+        <ContentProtection />
         {children}
       </body>
     </html>
