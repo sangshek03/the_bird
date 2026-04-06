@@ -290,9 +290,9 @@
     },
     "emergency": {
         "title": "Found an Injured Bird?",
-        "description": "Don't wait! Call our 24/7 helpline immediately for rescue assistance.",
-        "phone": ["+91 9451920387"],
-        "whatsapp": ["+91 9451920387"]
+        "description": "Don't wait, call our 24/7 helpline for rescue and treatment consultancy.",
+        "phone": ["+91 9451920387, +91 8197524137"],
+        "whatsapp": ["+91 9451920387, +91 8197524137"]
     },
     "team": {
         "founder": {
@@ -368,7 +368,7 @@
                 "name": "Dr. Ram Kumar Singh",
                 "role": "Associate Avian Nutrition Consultant",
                 "designation": "Assistant Professor, Department of Livestock Farm Complex Animal Nutrition, COVAS, SVPUAT, Meerut (UP) 250110",
-                "image": "/photos/team/Dr-Ram-Kumar-Singh.jpg",
+                "image": "/photos/team/Dr-Ram-kumar-Singh.jpg",
                 "bio": "Specializes in avian nutrition, providing guidance on proper dietary care for rescued and rehabilitated birds."
             }
         ],
@@ -406,7 +406,7 @@
             {
                 "name": "Shweta Verma",
                 "role": "Aquatic Avian Welfare Coordinator",
-                "image": "/photos/team/shweta.jpg",
+                "image": "/photos/team/Shweta.jpg",
                 "bio": "She is a dedicated and compassionate individual committed to making a positive impact. She brings enthusiasm and sincerity to her work, consistently striving for excellence. With a caring nature, she supports initiatives that contribute to community well-being."
             },
             {
@@ -548,7 +548,7 @@
                 "location": "Village Sukhchainpura, Post Gaudli, Sri Ganganagar, Rajasthan",
                 "lat": 29.13961781,
                 "lng": 73.5914378,
-                "image": "/photos/post-gaudl.jpeg",
+                "image": "/photos/Post-Gaudl.jpeg",
                 "portrait": false,
                 "description": "Located in Sukhchainpura village near Sri Hanuman Ji Mandir, this feeding station is maintained by Pradeep Verma, supporting birdlife in the Ganganagar district."
             },
@@ -558,16 +558,16 @@
                 "location": "Sangaria, Hanumangarh, Rajasthan",
                 "lat": 29.79634982,
                 "lng": 74.46309069,
-                "image": "/photos/preeti-rani-feeding-stand.jpeg",
+                "image": "/photos/Preeti-Rani-feeding-stand.jpeg",
                 "portrait": true,
                 "description": "A feeding station in Sangaria, Hanumangarh, lovingly maintained by Preeti Rani, providing food and water for birds in Rajasthan."
             }
         ]
     },
     "contact": {
-        "phone": ["+91 9451920387"],
-        "whatsapp": ["+91 9451920387"],
-        "email": "contact@thebirdsvet.org",
+        "phone": ["+91 9451920387, +91 8197524137"],
+        "whatsapp": ["+91 9451920387, +91 8197524137"],
+        "email": "thebirdsvetofficial@gmail.com",
         "address": "Lucknow, Uttar Pradesh, India",
         "social": {
             "facebook": "https://www.facebook.com/share/1DPDKbKA5F/",
