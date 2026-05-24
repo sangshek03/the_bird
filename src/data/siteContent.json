@@ -31,8 +31,8 @@
         },
         "stats": [
             { "number": "513+", "label": "Birds Rescued" },
-            { "number": "14+", "label": "Feeding Stations" },
-            { "number": "17+", "label": "Volunteers" }
+            { "number": "17+", "label": "Feeding Stations", "source": "feedingStations" },
+            { "number": "20+", "label": "Volunteers" }
         ],
         "video": "/videos/VID-20241214-WA0002.mp4"
     },
@@ -64,7 +64,7 @@
                 "year": "2020",
                 "title": "The Beginning",
                 "description": "The_Birds_Vet Trust of India was founded when a group of passionate bird lovers came together to rescue an injured Himalayan Bulbul. That one act of kindness gave birth to a mission to protect all the birds.",
-                "stat": { "number": "4", "label": "Founding Members" },
+                "stat": { "number": "4", "label": "Founding Members", "source": "foundingMembers" },
                 "image": "/photos/Picsart_25-05-05_05-21-47-252.jpeg",
                 "portrait": false
             },
@@ -80,7 +80,7 @@
                 "year": "2024",
                 "title": "Community Outreach",
                 "description": "We are taking a small initiative to provide food and water for all flying birds. Bird feeding stations are being set up in parks, open grounds, schools, and community spaces. Through awareness programs in schools and colleges, we are connecting the new generation with nature. This is not just about feeding birds, it is our responsibility toward all flying life.",
-                "stat": { "number": "14+", "label": "Feeding Stations" },
+                "stat": { "number": "17+", "label": "Feeding Stations", "source": "feedingStations" },
                 "image": "/photos/WhatsApp-Image-2026-01-28-at-11.58.11-AM.jpeg",
                 "portrait": true
             },
@@ -96,7 +96,7 @@
                 "year": "2026",
                 "title": "Feeding Stations",
                 "description": "We establish and maintain bird feeding stations across open areas to ensure a reliable supply of food and water for flying birds.",
-                "stat": { "number": "14+", "label": "Total Feeding Stations" },
+                "stat": { "number": "14+", "label": "Total Feeding Stations", "source": "feedingStations" },
                 "image": "/photos/feeding.jpeg",
                 "portrait": true
             }
@@ -110,30 +110,30 @@
             {
                 "title": "Bird Rescue",
                 "description": "24/7 emergency response team ready to rescue injured, sick, or stranded birds from anywhere in the region.",
-                "image": "/photos/Picsart_24-11-10_00-52-39-957.jpg",
+                "image": "/photos/bird-rescue.png",
                 "icon": "rescue",
                 "portrait": true
             },
             {
                 "title": "Veterinary Care",
                 "description": "Professional medical treatment including surgeries, medications, and specialized care for all avian species.",
-                "image": "/photos/Picsart_24-11-09_23-42-18-998.jpg",
+                "image": "/photos/vet-care.png",
                 "icon": "medical",
                 "portrait": true
             },
             {
                 "title": "Rehabilitation",
                 "description": "Safe recovery spaces where birds can heal and regain their strength before being released back into the wild.",
-                "image": "/photos/Picsart_24-11-10_01-07-46-120.jpg",
+                "image": "/photos/rehab.jpg",
                 "icon": "rehab",
                 "portrait": true
             },
             {
                 "title": "Feeding Stations",
                 "description": "We establish and maintain bird feeding stations across urban areas to provide food and water for wild birds.",
-                "image": "/photos/Picsart_24-11-10_01-10-06-482.jpg",
+                "image": "/photos/feeding-station-9.jpeg",
                 "icon": "feeding",
-                "portrait": false
+                "portrait": true
             }
         ]
     },
@@ -143,9 +143,9 @@
         "description": "Every rescue, every treatment, every release — together we're creating a better world for birds.",
         "stats": [
             { "number": "513+", "label": "Birds Rescued", "icon": "bird" },
-            { "number": "14+", "label": "Feeding Stations", "icon": "station" },
+            { "number": "20+", "label": "Feeding Stations", "icon": "station", "source": "feedingStations" },
             {
-                "number": "14+",
+                "number": "20+",
                 "label": "Active Volunteers",
                 "icon": "volunteer"
             },
@@ -200,6 +200,12 @@
         "title": "Gallery",
         "description": "A glimpse into our rescue operations, rehabilitation center, and the beautiful birds we've helped.",
         "photos": [
+            "/photos/_storage_emulated_0_Pictures_Picsart_Picsart_26-05-05_10-08-35-503.jpg",
+            "/photos/bird-rescue.png",
+            "photos/rehab.jpg",
+            "photos/vet-care.png",
+            "photos/Picsart_26-05-05_10-09-47-168.png",
+            "photos/Picsart_26-05-05_10-11-59-746.png",
             "/photos/Picsart_22-11-05_08-18-18-148.jpg",
             "/photos/Picsart_22-11-09_19-43-47-466.jpg",
             "/photos/Picsart_24-10-13_09-52-41-550.jpg",
@@ -256,7 +262,6 @@
                 "src": "/videos/VID-20241214-WA0002.mp4",
                 "caption": "Rescue Operations"
             },
-            { "src": "/videos/VID-20250218-WA0024.mp4", "caption": "Bird Care" },
             { "src": "/videos/n1.mp4", "caption": "Bird Welfare" },
             { "src": "/videos/n2.mp4", "caption": "Bird Conservation" }
         ]
@@ -370,6 +375,20 @@
                 "designation": "Assistant Professor, Department of Livestock Farm Complex Animal Nutrition, COVAS, SVPUAT, Meerut (UP) 250110",
                 "image": "/photos/team/Dr-Ram-kumar-Singh.jpg",
                 "bio": "Specializes in avian nutrition, providing guidance on proper dietary care for rescued and rehabilitated birds."
+            },
+            {
+                "name": "Dr. Sandeep Singh Kashyap",
+                "role": "Associate Avian Production Consultant",
+                "designation": "Associate Professor, Department of Livestock Production Management, CVSc&AH, Acharya Narendra Deva University of Agriculture and Technology, Kumarganj, Ayodhya (UP) 224229",
+                "image": "/photos/team/kashyap.jpg",
+                "bio": "Brings expertise in livestock and avian production management, supporting the trust's efforts in scientific bird care and conservation."
+            },
+            {
+                "name": "Dr. Kunwar Dhananjay Singh",
+                "role": "Avian Production Consultant",
+                "designation": "Assistant Professor, Department of Livestock Farm Complex, CVSc&AH, Acharya Narendra Deva University of Agriculture and Technology, Kumarganj, Ayodhya (UP) 224229",
+                "image": "/photos/team/jananjay.jpg",
+                "bio": "Contributes specialized knowledge in avian production and farm complex management, guiding sustainable practices for bird welfare."
             }
         ],
         "teamMembers": [
@@ -561,8 +580,52 @@
                 "image": "/photos/Preeti-Rani-feeding-stand.jpeg",
                 "portrait": true,
                 "description": "A feeding station in Sangaria, Hanumangarh, lovingly maintained by Preeti Rani, providing food and water for birds in Rajasthan."
+            },
+            {
+                "name": "Feeding Station - Sangeeta Wesley",
+                "caretaker": "Sangeeta Wesley",
+                "location": "Sanskriti Housing, Rai Bareilly Road, Lucknow, Uttar Pradesh",
+                "lat": 26.7597059,
+                "lng": 80.9403622,
+                "image": "/photos/feeding-santeega-wasley.jpg",
+                "portrait": true,
+                "description": "A feeding station at Sanskriti Housing on Rai Bareilly Road, Lucknow, lovingly maintained by Sangeeta Wesley to support local birdlife."
+            },
+            {
+                "name": "Feeding Station - Kamlesh Sonkar W/O R.K Sonkar",
+                "caretaker": "Kamlesh Sonkar w/o R.K Sonkar",
+                "location": "Patel Nagar, Babhnan, Basti, Uttar Pradesh",
+                "lat": 26.924109,
+                "lng": 82.52368,
+                "image": "/photos/feeding-kamlesh.jpg",
+                "portrait": true,
+                "description": "Located in Patel Nagar, Babhnan, this feeding station is maintained by Kamlesh Sonkar, providing daily food and water for birds in the Basti district."
+            },
+            {
+                "name": "Feeding Station - Sadar District Veterinary Hospital",
+                "caretaker": "",
+                "location": "Sadar District Veterinary Hospital, Gonda, Uttar Pradesh",
+                "lat": 27.1352568,
+                "lng": 81.9635633,
+                "image": "/photos/feeding-sadar.jpg",
+                "portrait": false,
+                "description": "A feeding station set up at the Sadar District Veterinary Hospital in Gonda, providing food and water for birds visiting the hospital premises."
             }
         ]
+    },
+    "donate": {
+        "title": "Support Our Mission",
+        "subtitle": "Every Contribution Saves a Wing",
+        "description": "Your donation directly supports bird rescue, veterinary care, rehabilitation, and the feeding stations we maintain across India. Even a small contribution helps us feed, heal, and protect more birds every day.",
+        "image": "/photos/logo.jpg",
+        "bank": {
+            "accountName": "THE BIRDS VET TRUST OF INDIA",
+            "bankName": "INDUSIND BANK",
+            "branch": "Aminabad",
+            "accountNumber": "251910899294",
+            "ifsc": "INDB0000519"
+        },
+        "note": "Please share your name and contact details on email - thebirdsvetofficial@gmail.com, with us after donating so we can send you a thanks receipt and updates on the impact of your contribution."
     },
     "contact": {
         "phone": ["+91 9451920387, +91 8197524137"],

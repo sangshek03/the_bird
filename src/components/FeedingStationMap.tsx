@@ -76,8 +76,13 @@ function MapInner({ stations }: FeedingStationMapProps) {
 
   const { MapContainer, TileLayer, Marker, Popup, L } = components
 
-  // Center map on Pithoragarh region
-  const center: [number, number] = [29.57, 80.19]
+  // Fit map to all stations
+  const lats = stations.map((s) => s.lat)
+  const lngs = stations.map((s) => s.lng)
+  const bounds: [[number, number], [number, number]] = [
+    [Math.min(...lats), Math.min(...lngs)],
+    [Math.max(...lats), Math.max(...lngs)],
+  ]
 
   const createImageIcon = (imageUrl: string) => {
     return L.divIcon({
@@ -111,8 +116,8 @@ function MapInner({ stations }: FeedingStationMapProps) {
 
   return (
     <MapContainer
-      center={center}
-      zoom={10}
+      bounds={bounds}
+      boundsOptions={{ padding: [40, 40] }}
       scrollWheelZoom={false}
       className="w-full h-[500px] rounded-xl z-0"
     >

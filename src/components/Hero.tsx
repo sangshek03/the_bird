@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from 'react'
 import siteContent from '@/data/siteContent.json'
+import { resolveStatNumber } from '@/lib/siteStats'
+import { openDonateModal } from '@/lib/donate'
 
 export default function Hero() {
     const { hero } = siteContent
@@ -175,8 +177,8 @@ export default function Hero() {
 
                     {/* CTAs */}
                     <div className="flex flex-wrap gap-4 justify-center mb-12 animate-fade-in-up delay-300 opacity-0">
-                        <a
-                            href={hero.primaryCta.href}
+                        <button
+                            onClick={openDonateModal}
                             className="btn btn-white text-base px-8 py-4"
                         >
                             <svg
@@ -187,7 +189,7 @@ export default function Hero() {
                                 <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
                             </svg>
                             {hero.primaryCta.text}
-                        </a>
+                        </button>
                         <a
                             href={hero.secondaryCta.href}
                             className="btn btn-outline-white text-base px-8 py-4"
@@ -210,7 +212,7 @@ export default function Hero() {
                         {hero.stats.map((stat, index) => (
                             <div key={index} className="text-center">
                                 <div className="font-heading text-3xl md:text-4xl font-bold text-white mb-1">
-                                    {stat.number}
+                                    {resolveStatNumber(stat)}
                                 </div>
                                 <div className="text-sm text-white/70">
                                     {stat.label}

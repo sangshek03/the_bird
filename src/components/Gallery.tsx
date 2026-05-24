@@ -1,50 +1,26 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import siteContent from '@/data/siteContent.json'
 
+type LightboxMedia =
+  | { type: 'photo'; src: string }
+  | { type: 'video'; src: string; caption?: string }
+
 export default function Gallery() {
   const { gallery } = siteContent
-  const [lightboxOpen, setLightboxOpen] = useState(false)
-  const [currentImage, setCurrentImage] = useState('')
+  const [lightbox, setLightbox] = useState<LightboxMedia | null>(null)
   const [showAll, setShowAll] = useState(false)
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0)
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false)
-  const videoRef = useRef<HTMLVideoElement>(null)
+  const [showAllVideos, setShowAllVideos] = useState(false)
 
   const displayPhotos = showAll ? gallery.photos : gallery.photos.slice(0, 12)
+  const displayVideos = showAllVideos ? gallery.videos : gallery.videos.slice(0, 8)
 
-  const openLightbox = (src: string) => {
-    setCurrentImage(src)
-    setLightboxOpen(true)
-  }
-
-  const closeLightbox = () => {
-    setLightboxOpen(false)
-    setCurrentImage('')
-  }
-
-  const nextVideo = () => {
-    setCurrentVideoIndex((prev) => (prev + 1) % gallery.videos.length)
-    setIsVideoPlaying(false)
-  }
-
-  const prevVideo = () => {
-    setCurrentVideoIndex((prev) => (prev - 1 + gallery.videos.length) % gallery.videos.length)
-    setIsVideoPlaying(false)
-  }
-
-  const toggleVideoPlay = () => {
-    if (videoRef.current) {
-      if (isVideoPlaying) {
-        videoRef.current.pause()
-      } else {
-        videoRef.current.play()
-      }
-      setIsVideoPlaying(!isVideoPlaying)
-    }
-  }
+  const openPhoto = (src: string) => setLightbox({ type: 'photo', src })
+  const openVideo = (src: string, caption?: string) =>
+    setLightbox({ type: 'video', src, caption })
+  const closeLightbox = () => setLightbox(null)
 
   return (
     <section id="gallery" className="py-20 md:py-28 bg-cream-soft relative overflow-hidden">
@@ -56,99 +32,60 @@ export default function Gallery() {
           <p className="section-description">{gallery.description}</p>
         </div>
 
-        {/* Video Carousel Section */}
+        {/* Videos Grid */}
         {gallery.videos.length > 0 && (
           <div className="mb-16">
             <h3 className="font-heading text-2xl font-semibold text-text-primary mb-6 text-center">
               Our Videos
             </h3>
 
-            <div className="relative max-w-4xl mx-auto">
-              {/* Main Video Display */}
-              <div className="relative aspect-video rounded-xl overflow-hidden shadow-large bg-black">
-                <video
-                  ref={videoRef}
-                  key={gallery.videos[currentVideoIndex].src}
-                  src={gallery.videos[currentVideoIndex].src}
-                  className="w-full h-full object-contain"
-                  controls={isVideoPlaying}
-                  onEnded={() => setIsVideoPlaying(false)}
-                  onPause={() => setIsVideoPlaying(false)}
-                  onPlay={() => setIsVideoPlaying(true)}
-                />
-
-                {/* Play Button Overlay (when not playing) */}
-                {!isVideoPlaying && (
-                  <div
-                    className="absolute inset-0 flex items-center justify-center bg-black/40 cursor-pointer"
-                    onClick={toggleVideoPlay}
-                  >
-                    <div className="w-20 h-20 bg-white/90 rounded-full flex items-center justify-center shadow-large hover:scale-110 transition-transform">
-                      <svg className="w-8 h-8 fill-forest-primary ml-1" viewBox="0 0 24 24">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {displayVideos.map((video, index) => (
+                <div
+                  key={`video-${index}`}
+                  className="relative aspect-square rounded-lg overflow-hidden shadow-soft group cursor-pointer hover:shadow-large transition-all duration-300 bg-black"
+                  onClick={() => openVideo(video.src, video.caption)}
+                >
+                  <video
+                    src={video.src}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    preload="metadata"
+                    muted
+                    playsInline
+                  />
+                  {/* Dark overlay for legibility */}
+                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors" />
+                  {/* Play Icon */}
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center shadow-medium group-hover:scale-110 transition-transform">
+                      <svg className="w-6 h-6 fill-forest-primary ml-0.5" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                       </svg>
                     </div>
                   </div>
-                )}
-
-                {/* Video Label */}
-                <span className="absolute top-4 left-4 px-3 py-1.5 bg-coral-soft text-white text-sm font-semibold rounded-full">
-                  Video {currentVideoIndex + 1} of {gallery.videos.length}
-                </span>
-              </div>
-
-              {/* Caption */}
-              <div className="text-center mt-4">
-                <p className="text-text-primary font-medium text-lg">
-                  {gallery.videos[currentVideoIndex].caption}
-                </p>
-              </div>
-
-              {/* Navigation Arrows */}
-              {gallery.videos.length > 1 && (
-                <>
-                  <button
-                    onClick={prevVideo}
-                    className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-14 w-12 h-12 bg-white rounded-full shadow-medium flex items-center justify-center hover:bg-leaf-pale hover:scale-110 transition-all z-10"
-                    aria-label="Previous video"
-                  >
-                    <svg className="w-6 h-6 fill-forest-primary" viewBox="0 0 24 24">
-                      <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-                    </svg>
-                  </button>
-                  <button
-                    onClick={nextVideo}
-                    className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-14 w-12 h-12 bg-white rounded-full shadow-medium flex items-center justify-center hover:bg-leaf-pale hover:scale-110 transition-all z-10"
-                    aria-label="Next video"
-                  >
-                    <svg className="w-6 h-6 fill-forest-primary" viewBox="0 0 24 24">
-                      <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
-                    </svg>
-                  </button>
-                </>
-              )}
-
-              {/* Dot Indicators */}
-              {gallery.videos.length > 1 && (
-                <div className="flex justify-center gap-2 mt-6">
-                  {gallery.videos.map((_, index) => (
-                    <button
-                      key={index}
-                      onClick={() => {
-                        setCurrentVideoIndex(index)
-                        setIsVideoPlaying(false)
-                      }}
-                      className={`w-3 h-3 rounded-full transition-all ${
-                        index === currentVideoIndex
-                          ? 'bg-forest-primary w-8'
-                          : 'bg-leaf-light hover:bg-leaf-green'
-                      }`}
-                      aria-label={`Go to video ${index + 1}`}
-                    />
-                  ))}
+                  {/* Caption */}
+                  {video.caption && (
+                    <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent">
+                      <p className="text-white text-sm font-medium line-clamp-2">
+                        {video.caption}
+                      </p>
+                    </div>
+                  )}
                 </div>
-              )}
+              ))}
             </div>
+
+            {/* Show More Button */}
+            {gallery.videos.length > 8 && (
+              <div className="text-center mt-8">
+                <button
+                  onClick={() => setShowAllVideos(!showAllVideos)}
+                  className="btn btn-secondary"
+                >
+                  {showAllVideos ? 'Show Less' : `Show All ${gallery.videos.length} Videos`}
+                </button>
+              </div>
+            )}
           </div>
         )}
 
@@ -164,7 +101,7 @@ export default function Gallery() {
               <div
                 key={`photo-${index}`}
                 className="relative aspect-square rounded-lg overflow-hidden shadow-soft group cursor-pointer hover:shadow-large transition-all duration-300"
-                onClick={() => openLightbox(photo)}
+                onClick={() => openPhoto(photo)}
               >
                 <Image
                   src={photo}
@@ -202,26 +139,47 @@ export default function Gallery() {
       </div>
 
       {/* Lightbox */}
-      {lightboxOpen && (
+      {lightbox && (
         <div
           className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4"
           onClick={closeLightbox}
         >
           <button
             onClick={closeLightbox}
-            className="absolute top-6 right-6 w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors"
+            className="absolute top-6 right-6 w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors z-10"
+            aria-label="Close"
           >
             <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24">
               <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
             </svg>
           </button>
-          <div className="relative max-w-5xl max-h-[90vh] w-full h-full" onClick={(e) => e.stopPropagation()}>
-            <Image
-              src={currentImage}
-              alt="Gallery image"
-              fill
-              className="object-contain"
-            />
+          <div
+            className="relative max-w-5xl max-h-[90vh] w-full h-full flex flex-col items-center justify-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {lightbox.type === 'photo' ? (
+              <Image
+                src={lightbox.src}
+                alt="Gallery image"
+                fill
+                className="object-contain"
+              />
+            ) : (
+              <>
+                <video
+                  src={lightbox.src}
+                  className="max-w-full max-h-[80vh] object-contain"
+                  controls
+                  autoPlay
+                  playsInline
+                />
+                {lightbox.caption && (
+                  <p className="text-white text-center mt-4 text-lg font-medium">
+                    {lightbox.caption}
+                  </p>
+                )}
+              </>
+            )}
           </div>
         </div>
       )}

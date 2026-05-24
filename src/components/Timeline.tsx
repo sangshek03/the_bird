@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import siteContent from '@/data/siteContent.json'
+import { resolveStatNumber } from '@/lib/siteStats'
 
 export default function Timeline() {
   const { timeline } = siteContent
@@ -76,7 +77,7 @@ export default function Timeline() {
                     {/* Stat */}
                     <div className="inline-flex items-center gap-2 px-3 py-2 bg-cream-soft rounded-lg text-sm text-text-secondary">
                       <span className="font-heading font-bold text-forest-primary text-lg">
-                        {milestone.stat.number}
+                        {resolveStatNumber(milestone.stat)}
                       </span>
                       <span>{milestone.stat.label}</span>
                     </div>

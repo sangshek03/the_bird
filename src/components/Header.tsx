@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import siteContent from '@/data/siteContent.json'
+import { openDonateModal } from '@/lib/donate'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -84,9 +85,12 @@ export default function Header() {
               ))}
             </ul>
             <div className="flex gap-3">
-              <a href="#donate" className="btn btn-primary text-sm px-5 py-2">
+              <button
+                onClick={openDonateModal}
+                className="btn btn-primary text-sm px-5 py-2"
+              >
                 Donate
-              </a>
+              </button>
             </div>
           </nav>
 
@@ -144,13 +148,15 @@ export default function Header() {
                 </li>
               ))}
               <li className="pt-2 border-t border-leaf-pale mt-2">
-                <a
-                  href="#donate"
+                <button
                   className="btn btn-primary w-full justify-center"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={() => {
+                    setIsMobileMenuOpen(false)
+                    openDonateModal()
+                  }}
                 >
                   Donate Now
-                </a>
+                </button>
               </li>
             </ul>
           </nav>

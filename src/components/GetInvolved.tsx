@@ -1,6 +1,7 @@
 'use client'
 
 import siteContent from '@/data/siteContent.json'
+import { openDonateModal } from '@/lib/donate'
 
 const iconMap: Record<string, JSX.Element> = {
   volunteer: (
@@ -53,12 +54,21 @@ export default function GetInvolved() {
               </p>
 
               {/* CTA */}
-              <a
-                href="#contact"
-                className="btn btn-secondary text-sm px-6 py-2"
-              >
-                {option.cta}
-              </a>
+              {option.icon === 'donate' ? (
+                <button
+                  onClick={openDonateModal}
+                  className="btn btn-secondary text-sm px-6 py-2"
+                >
+                  {option.cta}
+                </button>
+              ) : (
+                <a
+                  href="#contact"
+                  className="btn btn-secondary text-sm px-6 py-2"
+                >
+                  {option.cta}
+                </a>
+              )}
             </div>
           ))}
         </div>

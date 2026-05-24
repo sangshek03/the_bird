@@ -1,6 +1,7 @@
 'use client'
 
 import siteContent from '@/data/siteContent.json'
+import { resolveStatNumber } from '@/lib/siteStats'
 
 const iconMap: Record<string, JSX.Element> = {
   bird: (
@@ -54,7 +55,7 @@ export default function Impact() {
                 </svg>
               </div>
               <div className="font-heading text-4xl md:text-5xl font-bold text-white mb-2">
-                {stat.number}
+                {resolveStatNumber(stat)}
               </div>
               <div className="text-white/70 text-sm">{stat.label}</div>
             </div>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
 import ContentProtection from '@/components/ContentProtection'
+import DonateModal from '@/components/DonateModal'
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -17,10 +18,6 @@ export const metadata: Metadata = {
   description: 'The_Birds_Vet is dedicated to providing veterinary care, conservation, and nurturing for birds. Our mission is to ensure the well-being and protection of avian species.',
   keywords: ['bird rescue', 'bird conservation', 'veterinary care', 'NGO', 'wildlife protection', 'bird rehabilitation'],
   authors: [{ name: 'The_Birds_Vet' }],
-  icons: {
-    icon: '/photos/logo.jpg',
-    apple: '/photos/logo.jpg',
-  },
   openGraph: {
     title: 'The_Birds_Vet | Saving Birds, Protecting Nature',
     description: 'A group dedicated to providing Veterinary care, conservation and nurture the Birds.',
@@ -38,6 +35,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <ContentProtection />
         {children}
+        <DonateModal />
       </body>
     </html>
   )
